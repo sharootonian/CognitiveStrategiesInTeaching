@@ -2,6 +2,6 @@
 
 
 
-Run Exp plot notebooks for paper figures. 
+Run Exp_plot notebooks for paper figures. 
 
-Model fitting for choice fitting.
+Model fitting notebook for choice fitting.
