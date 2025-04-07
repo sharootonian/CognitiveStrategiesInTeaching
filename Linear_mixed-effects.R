@@ -2,6 +2,8 @@
 library(lme4)
 library(lmerTest)
 library(emmeans)
+library(rstudioapi)
+setwd(dirname(getActiveDocumentContext()$path))
 
 exp3data_forR <- read.csv("~/data/preprocessed/exp3/exp3data_forR.csv")
 
