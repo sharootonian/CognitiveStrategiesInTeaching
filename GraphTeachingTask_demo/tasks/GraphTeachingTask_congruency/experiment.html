@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Path Improvement</title>
+
+  <!-- Load required libraries -->
+  <script src="../../shared/js/lib/jquery-3.3.1/jquery.min.js"></script>
+  <script src="../../shared/js/lib/jspsych/jspsych.js"></script>
+
+  <!-- Load your custom jspsych plugin -->
+  <script src="../../shared/js/plugin-external-html-edgeRes.js" type="text/javascript"></script>
+
+  <!-- Load jspsych plugins -->
+  <script src="../../shared/js/lib/jspsych/plugin-html-keyboard-response.js"></script>
+  <script src="../../shared/js/lib/jspsych/plugin-instructions.js"></script>
+  <script src="../../shared/js/lib/jspsych/plugin-fullscreen.js"></script>
+  <script src="../../shared/js/lib/jspsych/plugin-survey-multi-choice.js"></script>
+  <script src="../../shared/js/lib/jspsych/plugin-survey.js"></script>
+  <script src="../../shared/js/lib/jspsych/plugin-preload.js"></script>
+  
+  <!-- Load anychart library for charting capabilities -->
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-graph.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
+
+  <!-- Load CSS styles for jspsych and your survey -->
+  <link href="../../shared/css/jspsych.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/@jspsych/plugin-survey@0.1.1/css/survey.css">
+
+  <!-- Load your experiment script -->
+  <script src="../../shared/js/exp2.js"></script>
+
+</head>
+<body>
+  <!-- The div where jsPsych will render the experiment -->
+  <div id="jspsych-target"></div>
+</body>
+<!-- This script module handles the experiment setup, data loading and experiment running -->
+<script type="module">
+  import {csv} from "https://cdn.skypack.dev/d3-fetch@3"; // import d3-fetch for csv file handling
+
+  const CI_path = "../../shared/data/exp2_trialsetup_CI.csv"
+  const II_path = "../../shared/data/exp2_trialsetup_II.csv"
+
+  // Get condition from URL parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  const condition = urlParams.get('condition') || 'CI'; // Default to CI if not specified
+
+  var csvArr = [] // array to hold the data from the CSV file
+  const csvFile = condition === 'II' ? II_path : CI_path;
+
+  // Load the data from the CSV file
+  csv(csvFile).then((dataRes) => {
+    csvArr = dataRes; // save the data in the csvArr array
+
+    // clear any existing session storage
+    localStorage.clear();
+    sessionStorage.clear()
+
+      // var unshuffled = csvArr
+      var unshuffled_training = csvArr.slice(0,20);
+      var unshuffled_test = csvArr.slice(20,25)
+
+    // shuffle the csv here
+      let shuffled_training = unshuffled_training
+        .map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value)
+
+      ////*************************************** CCII
+      var combined = shuffled_training.concat(unshuffled_test)
+
+      ////*************************************** IIII
+      // let shuffled2x_incongruent = shuffled_incongruent
+      //   .map(value => ({ value, sort: Math.random() }))
+      //   .sort((a, b) => a.sort - b.sort)
+      //   .map(({ value }) => value)
+      // var combined = shuffled_incongruent.concat(shuffled2x_incongruent)
+   
+      // saves new shuffled indices in session storage 
+      var shuffledIndices = []
+      var congruency = []
+      var flipped = []
+      var trial_id = []
+
+      combined.forEach(row => {
+        // ...use `row`...
+        shuffledIndices.push(row["index"])
+        flipped.push(row["flipped"])
+        congruency.push(row["congruency"])
+        trial_id.push(row["trial_id"])
+      });
+
+      localStorage.setItem("shuffledIndices", JSON.stringify(shuffledIndices))
+      localStorage.setItem("flipped", JSON.stringify(flipped))
+      localStorage.setItem("congruency", JSON.stringify(congruency))
+      localStorage.setItem("trial_id", JSON.stringify(trial_id))
+
+     // sets items
+     localStorage.setItem("csvArr", JSON.stringify(combined));
+    // localStorage.setItem("csvArr", JSON.stringify(csvArr));
+     localStorage.setItem("indexInput","0")
+
+     // console.l("csvArr")
+     // console.l(csvArr[0])
+     // console.l(shuffled[0])
+    });
+
+    timeline.push(enter_fullscreen);
+    timeline.push(welcome);
+    timeline.push(instructions);
+    timeline.push(trainingInteractive)
+    timeline.push(quiz)
+    timeline.push(quiz_failed);
+    timeline.push(breaktime);
+    timeline.push(experiment_reminder);
+    timeline.push(experimentF_procedure);
+    timeline.push(debrief);
+    timeline.push(conclusion);
+
+    // runs experiment
+    jsPsych.run(timeline)
+// OUTCODE END
+
+
+</script>
+<script>
+  // Pass message from jsPsych to NivTurk
+  function pass_message(msg) {
+
+    $.ajax({
+      url: "/experiment",
+      method: 'POST',
+      data: JSON.stringify(msg),
+      contentType: "application/json; charset=utf-8",
+    }).done(function(data, textStatus, jqXHR) {
+      // do nothing on success
+    }).fail(function(error) {
+      console.log(error);
+    });
+
+  }
+
+  // Save an incomplete dataset.
+  function incomplete_save() {
+
+    $.ajax({
+      url: "/incomplete_save",
+      method: 'POST',
+      data: JSON.stringify(jsPsych.data.get().json()),
+      contentType: "application/json; charset=utf-8",
+    }).done(function(data, textStatus, jqXHR) {
+      // do nothing
+    }).fail(function(error) {
+      // do nothing
+    });
+
+  }
+
+  // Demo mode - no data collection or redirects needed
+
+</script>
+</html>

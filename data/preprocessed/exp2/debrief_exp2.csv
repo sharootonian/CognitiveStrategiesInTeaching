@@ -1,0 +1,254 @@
+subjID,P0_Q1,P0_Q2,P0_Q3,P0_Q4,P0_Q5,strategies
+s0,5,4,5,5,1,Find the highest pair combinations
+s1,5,7,7,6,2,"I first looked for the largest amount of points that could be gained by changing just one part of the student's path and then directed the student there. If there wasn't one change which was guarateed to increase points, I chose a path next to one of the largest sources of points."
+s2,4,7,6,5,4,"chose options that limited students to fewer paths, i.e. edge rather than center"
+s3,4,7,4,5,1,"If there was an option that guaranteed they could increase their points, I picked that. Otherwise, I tended to pick the highest path that could potentially increase their points."
+s4,2,7,6,2,1,"I tried to pick the path that gave them an option to never pick 0 points, so I tried to lead them to paths where they had no idea of the values."
+s5,4,7,5,5,2,connect the highest points possible
+s7,5,6,7,5,4,"I tried to reveal a path that would be most likely to end up benefiting the student , that is, the path that gave them a higher chance of improving their score."
+s8,3,7,6,3,1,Looked at the colours of the circles and quickly added highest score 
+s9,2,7,5,2,1,Just trying to connect the 3 pointers with an effective path.
+s10,6,5,5,6,4,Looking for the edge that led to the most points
+s11,5,7,6,7,2,Increase either at the beginning or end of the line
+s12,2,6,6,3,1,to get the most points for the student
+s13,5,7,5,6,2,Without knowing what the other person could see it was always ambigious but thought that getting the person on the right track as soon as possible would be most helpful
+s14,4,5,5,3,3,Higher number to reach higher total
+s15,1,7,6,7,1,Mostly focusing on the +3s as they always gave the best points
+s16,3,6,4,3,3,"Tending towards paths on the last rung, as it was more certain that they would know the paths that lead to the new chosen path"
+s17,2,6,6,4,2,I went with what would seem to give the most points.
+s18,4,6,6,4,1,search out the highest points.
+s19,5,6,7,5,1,i tried to either add points right from the first point or show where more were down the line and try to lead them that way with that.
+s20,5,4,5,5,4,Most points for student
+s21,1,5,7,5,1,path of highest points
+s22,3,6,7,3,2,Focus on which single changes should have the highest guaranteed return. 
+s23,3,7,5,4,1,Most points!
+s24,6,7,6,7,1,Choose a path that gave the most points
+s25,7,5,5,7,2,I tried to highlight the most productive leg of the route
+s26,1,7,6,3,1,
+s27,3,6,6,3,2,I aimed to get the most points for the student
+s28,5,7,7,6,2,"First look for the highest number that I could connect to, and if that didn't seem possible, go down to the next highest number."
+s29,3,7,4,3,2,Seeing the path that would earn the most points based on the previous attempts. 
+s30,2,7,7,2,1,I tried to give them a path which they would likely be able to see based on the path they already previously took.
+s31,4,7,4,5,4,largest numbers
+s32,5,7,6,6,3,"Try to find a more rewarding choice closest to the end of the path, the last choice if possible. "
+s33,5,3,5,4,4,How to get the most points
+s34,2,6,7,5,1,Selecting the highest value 
+s35,2,6,7,3,2,I tried to connect the biggest numbers
+s36,5,7,6,5,2,"I chose to reveal paths that were lower down most of the time, thinking that meant that there was more of a chance they'd be able to find their way to what I'd revealed to them with whatever paths they had available near the top."
+s37,2,3,4,3,2,Always trying to maximize points on the path
+s38,5,7,6,5,3,finding good path at the beginning
+s39,1,7,6,3,2,The path that offers the most points.
+s40,4,5,4,5,4,I Just tried to connect the two greatest numbers on the path
+s41,3,7,6,4,1,Chose a path based on their original path that would lead to a 3+
+s42,4,2,5,4,3,
+s43,5,4,5,4,3,i followed the best path
+s44,2,6,2,2,4,no strategy
+s45,2,6,5,5,3,Look for the biggest number
+s46,2,7,6,5,2,I tried to figure out the closest to the way they already went so they could get more points.
+s47,5,7,6,6,2,Tried to select the dotted line that connected to 3
+s48,5,2,6,5,6,Focus on the +3 circules
+s49,4,7,7,4,1,"I had to assume that the student will only use my idea if it's immediately beneficial and I could not trust they will follow 'the best' route afterwards, so I looked to what will give the most points given ""they follow my route then pick the worst cases afterwards"""
+s50,4,6,5,5,3,"In general, I looked at the 2nd to last spot and picked a path with a bigger number"
+s51,5,7,6,4,2,I looked at what they chose and tried to pick one that might connect with what they know.
+s52,2,6,6,7,2,finding the path to the highest number
+s53,5,7,5,5,3,"Often, I would try to go along pathways that the student had already used with a slight optimizing tweak. Sometimes, I would try to take them down a new pathway if it seemed like any path from there to the end would yield great rewards. "
+s54,1,6,6,7,5,finding the best path with more points
+s55,3,6,6,5,3,I tried to think logically and quickly about what would lead someone to a plus 3 or higher score
+s56,6,7,6,7,1,"I looked for the red 3 and checked to see which path would make the most points, then tried to find a line that would lead the student to go to that endpoint of where the three was."
+s57,5,7,6,4,1,looked for the larger numbers and the paths from them
+s58,3,6,5,5,5,"i tried to choose the path that would get the most points, especially the paths leading to the red 3+ points"
+s59,3,4,6,4,2,Find the path with the most points.
+s60,6,7,5,6,1,"I tried to go for paths that the point difference would be greater than 1, or where it would open up new paths potentially."
+s61,5,6,7,6,1,I tried to connect the highest number of points given the paths available.
+s62,6,5,6,6,5,"the biggest points and, when two paths had equal points, the path that led directly to a plus three, where possible"
+s63,6,7,4,5,3,best way possible
+s64,3,5,5,4,2,I showed them a path that opened up multiple better options for them to choose
+s65,3,6,6,4,2,Reveal most info about high value nodes and try to improve the student path.
+s66,6,7,6,5,2,TRYING TO GET THE STUDENT THE MOST POINTS
+s67,6,6,2,5,6,I usually picked based on what was selected before because I knew the student knew the path.
+s68,5,4,5,6,4,maximize student's points
+s69,2,6,7,5,1,To select the closest 3+ points
+s70,3,6,6,7,1,Pick the line that sums up to most points
+s71,2,5,7,2,1,Whatever path gave the most points
+s72,5,6,6,4,2,I tried to group the +3 points on a path
+s73,2,4,4,3,1,Look at the final path the student took and worked from there
+s74,4,5,5,4,3,I started at the top and picked the path with the most points total in the end.
+s75,4,7,7,7,1,I used my math skills by quickly deciding in my mind which path added up the most points and I chose that path for the student.
+s76,1,7,7,1,1,I tired to make sure the path that I suggested even if the rest were 0 the combined the value of that one thing would be greater than the path previously taken.
+s77,4,7,7,7,1,I calculated what was the current amount of points and tried to chose a path that increased it significantly
+s78,5,7,7,5,1,What should lead the student to more points
+s79,2,6,6,2,1,simple addition
+s80,2,5,5,5,5,I tried to collect as many points as possible for the student
+s81,6,6,6,6,2,Addition
+s82,2,7,7,6,3,I tried to maximize the possibility that the student increased by even one point.
+s83,3,4,5,3,2,Give the student the path that would offer the most success from the beginning
+s84,3,7,,3,2,most points
+s85,2,6,5,2,1,Path for higher points 
+s86,3,7,7,4,2,attempt to get the most points with only 1 change
+s87,2,5,6,4,1,Mainly aiming for 3s on the screen
+s88,1,7,7,7,1,whatever looked like it had the most available points from a point that was 1 or 0
+s89,3,5,4,3,1,Finding a way to connect the two highest numbers together.
+s90,3,6,6,5,2,Finding the highest value pairs and consider the possibilities of the advice (i.e. some paths only lead to 2 options while others lead to 3)
+s91,7,4,3,6,7,Counting and assessing ideal//possible pathways
+s92,4,6,6,6,1,get the more points possible
+s93,5,6,6,2,4,I counted how many points the student currently had and made sure to choose a path that would gain them at least 1 more point than what they currently had.
+s94,4,7,6,5,2,looked to see which path would provide most options to get higher points
+s95,2,5,7,3,1,Most points possible
+s96,2,4,3,3,2,"At first I decided to highlight the largest numbered path, but after a few, I decided to look further up to see if showing path before that number made more sense."
+s97,1,7,7,2,1,the path that would give the highest amount of points
+s98,4,6,6,5,2,I looked as much as possible for a way to make one move higher than the one they took
+s99,4,6,5,6,4,I just looked for the biggest number and saw if the path before it was more or less than what was already achieved by the student. I feel like I might have messed up a bit as I am always kind of more frazzled when on a timer.
+s100,5,3,5,4,2,bigger numbers!
+s101,2,5,4,5,2,I tried to use evaluate which step the student went 'wrong' and pick the path that the student can change to get higher points
+s102,5,6,6,5,2,I chose whatever edge would guarantee an increase in points for the student given the path the student had already taken prior. 
+s103,3,6,6,3,1,Adding up the points
+s105,6,7,6,7,6,"I would look for the red number worth ""3"""
+s106,2,6,6,5,2,Choosing the highest numbers
+s107,4,5,4,5,1,"at first I didn't have a clear strategy, but then I prioritized edges that I knew would increase the score (even if it was less than the max possible)"
+s108,6,6,6,6,1,Try to maximize the points and the student can understand the suggested path
+s109,5,4,4,6,5,The easiest to the most points
+s110,5,5,3,6,2,to analyze the paths as fast as possible
+s111,5,7,6,6,2,The one that yielded the most points for the student!
+s112,3,6,5,3,2,"I just chose what path I thought would accumulate the maximum amount of points, even if the student didn't take the exact path I had in mind."
+s113,2,5,4,2,1,I tried to pick the one that would give the student the clue to the most points.
+s114,5,4,6,5,3,Connect the highest numbers
+s115,1,7,5,6,1,try to choose the path with most points
+s116,6,7,5,6,2,I Looked at it from the students point of view to determine what information was missing and based on that provided the information that would give the best solution.
+s117,3,7,5,2,2,"Finding the paths the student did not seem to know of, which increased their score the most"
+s118,5,3,4,5,5,I always chose a path that led to the greatest point value on the graph.
+s119,4,3,6,4,1,The path that would lead to the highest points.
+s120,5,3,6,5,4,make sure the next path would lead to increase in score
+s121,2,5,5,4,1,Tried to highlight the path that provides for the most points.
+s122,3,7,7,3,1,Trying to gain the most amount of points possible. Try and hit as many 3's or 2's as possible
+s123,5,7,6,6,1,Tried to see what useful path that the student could not see.
+s124,6,6,4,6,5,I looked at what had the most points and if I thought it would benefit the student.
+s125,6,7,4,7,1,I tried to find the path that connected to a 3
+s126,4,5,5,5,2,I looked at each row and tried to find where I could increase the score the most
+s127,5,5,6,5,3,Looked at what path was taken and then looked if there was a higher point path that it seemed like the student had missed and tried to illuminate that.
+s128,4,7,7,5,3,I always tried to guide the student from the very beginning to get more points. I only chose an edge towards the end if the beginning looked okay (if they were already getting a lot of points early on).
+s129,6,5,3,5,5,seeing which path would lead to more points
+s130,3,6,6,4,1,Loling at the beat path to get the most points and teying to keep in mind that the students dont already know that
+s131,2,6,5,3,3,i count what path would create the most possible points
+s132,5,6,5,4,2,"I looked for an obvious path to a high scoring circle, or a series of them."
+s133,5,7,6,6,2,"start at the bottom, look for the biggest numbers and work my way backwards"
+s134,6,6,4,6,4,Trying to open paths for the 3's
+s135,2,7,7,2,1,I wanted to select the line connecting the highest sum of the two end points to show that either the first or second point resulting in increased points
+s136,2,7,7,4,1,quick math
+s137,5,6,3,4,4,I tried to gain the most points
+s138,3,4,5,6,1,"Max points, least disruptive."
+s139,3,7,7,5,1,I chose the segment that seemed to have the most points
+s140,2,4,5,4,5,I looked at the highest number and then tried to work out the change in path that would yield the highest points gain.
+s141,5,5,7,5,3,Find the highest reward possible and connect the two most enticing options in that path
+s142,3,6,7,4,1,looking for highest combinations
+s143,2,5,5,6,1,To highlight direct paths to highpoint circles
+s144,4,6,6,5,3,"Looked for the highest number, like a 2 or 3 that they didn't see."
+s145,2,5,6,4,3,finding which next step would give the most points
+s146,4,3,6,6,2,Determined which path would up their points by even just a single point
+s147,5,7,,3,2,Chose what would give the student the most points
+s148,5,7,7,6,1,I wanted to get the most points.
+s149,5,6,6,5,2,adding the most points
+s150,3,6,5,2,2,I tried to choose a segment that led to a higher amount
+s151,3,5,5,4,3,get to more points as soon as possible
+s152,1,7,6,4,1,highest score
+s153,6,7,5,7,5,I looked at which path they likely would be able to combine with existing paths i know they knew to get the best points
+s154,4,3,5,5,6,I tried to always give access to a +3 whenever possible
+s155,3,6,6,3,2,most points connected by my line
+s156,6,6,5,5,2,"i tried to think about what information the student could have that would lead them to choose what they did, and pick the most informative path to open for them"
+s157,3,5,6,4,1,"I chose to focus on hitting as many 3's as I could, when it was clear that would lead to the most points."
+s158,1,7,5,3,1,"I tried to mentally add up what the best paths would be, and also tried to rely on the student using context clues to figure out the path from there"
+s159,5,6,6,3,2,step by step
+s160,3,5,5,4,1,teach the student to take the path of the most points.
+s162,3,7,7,2,2,I added up the possible points and chose the one that would lead the student to the highest total. Most of that included looking to string multiple 3 points together
+s163,3,6,6,2,1,Math
+s164,5,7,6,6,3,I choose the best path that would yield points higher than the path the student initially took
+s165,5,6,6,5,3,traversing the end points
+s166,2,7,6,3,1,which lead to more high-value spots
+s167,4,6,6,5,1,"I looked for options to maximize their potential but balancing that with guaranteed wins. Sometimes that meant not going for the most points because there wasn't a guarantee they'd be able to follow that path, but going for the best balance to increase their points"
+s168,2,6,7,5,2,Choose the path leading to higher points.
+s169,5,6,5,5,3,I wanted to show the connection between the two highest point yielding points.
+s170,5,6,4,4,2,I tried to guide the student toward the +3 dots as much as I could. 
+s171,2,6,6,3,3,hit most highest numbers possible
+s172,3,6,5,2,1,I went by intuition
+s173,6,6,5,5,1,I just tried to find the best path with maximum point
+s174,3,6,6,6,1,finding the highest number
+s175,4,5,5,5,3,I tried to find the students the best possible path to earn more points
+s176,4,7,7,5,1,to make sure the connected line added up to more than the students path
+s177,2,7,6,2,2,Looking at how much total points I got with each different path
+s178,4,6,6,5,2,Looking at the path chosen and trying to figure out what the student could see and what would be the best to reveal
+s179,2,7,7,2,1,"look at the path chosen, then pick a line close to that."
+s180,3,7,5,4,1,"I just feel like I never could give the student the whole picture, and hardly could help just barely, so I just did my best to suggest as much as I could."
+s181,5,7,6,5,3,Choose the highest possible total.
+s182,3,7,5,4,1,Try to get at least one 3
+s183,1,7,7,1,1,Added up the points in each path and chose the one with most points
+s184,2,5,5,2,1,My head went to the highest number path 
+s185,4,6,4,5,2,"Tried to see if they would have chosen the path I revealed, in comparison to their chosen path."
+s186,6,6,7,7,4,i counted the largest amount of points that i could help the student redeem
+s187,3,6,6,3,2,Just adding up the circles quickly to find the highest score and took that path.
+s188,5,6,5,5,4,Try to figure out why the student chose their path
+s189,2,3,5,3,3,higher numbers together
+s190,2,7,4,3,1,I tried to reveal the path that I thought would be most likely to earn the student more points while also taking into consideration what paths they may not be aware of already.
+s191,2,7,7,2,1,I tired to show the student the path with the highest point value
+s192,6,4,6,5,3,I added up student last try and tried to improve on that
+s193,5,7,6,4,2,Summed up the numbers in my head to pick the best ones.
+s194,3,6,6,4,4,Choose a path that gives them a chance of going to a circle with higher points
+s195,2,7,6,2,1,"try to find an ""intersection"" where if the student chose a different direction, that they would definitely increase in points"
+s196,5,7,5,6,4,"I traced possible paths with my eyes, adding them up mentally and picking the path with the highest sum."
+s197,5,7,5,7,2,"Gut and logic, trying to figure the path choice that wouldn't confuse student."
+s198,1,7,7,2,2,ensuring that the total points would be higher
+s199,3,6,5,5,2,I tried to think about what they already knew based on the solid lines and then how I could increase their points by getting them to choose a different path or edge
+s200,2,6,5,4,1,tried to complete a connection to the highest number
+s203,4,4,4,4,4,
+s204,3,6,6,3,1,I tried to reveal a path that was high up on the chart and worth more points than any other at that level
+s205,4,7,5,5,2,Find the path that will produce the most points.
+s206,4,6,6,6,4,I tried to select the path that would lead to a higher score for the student. 
+s207,2,7,7,3,2,I choose the path that would earn the most points and at the same time was clear to the student which direction to take
+s208,6,6,5,7,6,I tried to find the path that generated more points.
+s209,2,6,6,2,2,scanning for the most points first
+s210,3,5,5,3,4,"net points gained from different path (0 to 3 = 3, 0 to 2 = 2, 1 to 3 = 2, etc)"
+s211,4,6,7,3,1,Analyze options that would increase the potential total number of points and assume the students didn't know any paths that weren't solid black
+s212,5,7,6,5,1,the path with the most points
+s213,5,7,5,7,4,To find the simplest path that would lead to the biggest leap in points. 
+s214,2,6,6,3,1,"Connect the two highest points; typically that would get them more points than taking a different route, regardless if they got 0 or 1 point(s) in a spot. "
+s215,3,7,7,4,1,adding up the points the student had in the path and then focusing on getting teach them to get more
+s216,5,5,5,6,2,"Start as strong as possible, with as many points as possible"
+s217,1,7,5,2,1,I tried to pick the edge close to the bottom since most of the chart at the top you can already see.
+s218,2,5,5,3,5,"at first connecting the most points, by the end looking at what makes sense for a student to have chosen and what missing information i think that they did not have"
+s219,3,6,6,2,1,I plotted the value of a path and determined if it was possible to teach it by only highlighting one path
+s220,2,6,7,1,1,I tried to pick the path between the two highest numbers
+s221,4,6,6,3,1,Whichever appeared to give the most points
+s222,5,7,6,5,1,"Looking at the path they took, then looking at which path could improve it. In some cases, it was lower down, in many it was choosing a different first path and either following the rest of their path they did, or that they'd be able to follow where the new suggestion would take them. In one case, I had to add what they had already done vs what I was going to suggest, because I was concerned picking a higher first path actually could end up giving them less points based on what options that gave them below. But I think the one I suggested still gave them one more point."
+s223,5,5,6,6,2,ensuring incremental points each student (even if not max points)
+s224,2,6,7,6,3,Looked at the path the student took then added up their points. then looked for other paths with higher points balances to suggest to the student 
+s225,4,6,6,4,1,Choosing the path that gave at least more than the one taken by the student.
+s226,4,7,5,4,2,I looked for the most obvious point addition
+s227,2,6,5,6,1,to connect the most points
+s228,2,7,7,2,1,Picking the path that would potentially lead to the most points collected
+s229,4,6,5,5,3,I tried to find something that branched off their existing path
+s230,2,7,4,7,2,I tried to choose the path that would help them change course to the higher scoring path.
+s231,2,5,7,2,1,Find the best path to a max amount and find the best line to take 
+s232,6,5,4,6,3,Calculating which path gives the student the most points
+s233,5,6,5,6,4,see total possible point could get on each path
+s234,4,6,5,5,4,whichever gives the most points
+s235,6,5,6,6,2,The most overall points
+s236,5,5,6,4,2,Looked where the larger numbers were and tried to direct the path there
+s237,5,6,6,4,2,connecting the lines to the highest number below to increase more points
+s238,5,6,6,5,2,I always chose the path that would afford the student the most points.
+s239,3,6,7,4,1,I tried to follow the student's path and then use a branching path that I assumed they saw at least part of and then clicked the better path that was attached to it.
+s240,5,6,6,6,4,"Attempting their path and seeing if they should have approached it different initially. Otherwise, is if they are on the right track I will lead them to the next possible highest point."
+s241,3,6,6,2,6,Most of the time I choose to reveal a path to bottom node
+s242,5,5,6,,3,Whatever makes more points
+s243,2,6,6,3,1,I picked the route that would reward more points but built on what the student already knew.
+s244,3,7,6,3,1,Tried to pick out the path that gave the most points between two spots
+s245,2,4,4,2,2,higher numbers
+s246,5,6,7,6,1,I tried to pick the paths that would create the most points.
+s247,7,7,6,6,1,the path that would most likely help the student pick the highest paying route
+s248,5,7,6,3,1,"The path that is known to give more points. If not, the path that has the potential to unlock more points"
+s249,5,4,5,4,1,Going for the +3
+s250,2,6,6,2,1,best guess
+s251,4,6,3,6,2,"I tried to maximize points by leading them to a better path, but also visualizing what they probably could see. "
+s252,6,3,3,5,5,Just considered the last line
+s253,4,6,6,4,2,Tried to come up with the best possible point combinations.
+s254,5,6,6,5,3,I looked at the path of highest amount in total
+s255,5,7,5,4,1,Choosing the path that would take you through at least one +3
+s256,6,5,5,6,3,Not sure
+s257,2,7,5,5,1,I tried to map out the best path with the highest number of points

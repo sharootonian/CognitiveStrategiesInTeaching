@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Node Graph Example</title>
+    <script src="../../shared/js/lib/jspsych/jspsych.js"></script>
+    <script src="../../shared/js/lib/jspsych/plugin-external-html.js"></script>   
+    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-graph.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
+    <style>
+      #next_trial {
+        font-size: 20px; /* Makes the text larger */
+        padding: 15px 30px; /* Adds space inside the button, making it larger */
+        background-color: #c5c5c5; /* A pleasant green background */
+        color: black; /* White text color */
+        border: none; /* Removes the default border */
+        border-radius: 5px; /* Rounds the corners of the button */
+        cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the button */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+        transition: background-color 0.3s, transform 0.1s; /* Smooth transition for feedback */
+      }
+    
+      /* Slightly changes the button when hovering to provide visual feedback */
+      #next_trial:hover {
+        background-color: #c5c5c5; /* A darker shade of green */
+        transform: translateY(-2px); /* Moves the button up slightly */
+      }
+    
+      /* Mimics a pressing action with a subtle transformation */
+      #next_trial:active {
+        transform: translateY(1px); /* Moves the button down slightly */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjusts the shadow to appear "closer" to the surface */
+      }
+      #next_train {
+        font-size: 20px; /* Makes the text larger */
+        padding: 15px 30px; /* Adds space inside the button, making it larger */
+        background-color: #c5c5c5; /* A pleasant green background */
+        color: black; /* White text color */
+        border: none; /* Removes the default border */
+        border-radius: 5px; /* Rounds the corners of the button */
+        cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the button */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+        transition: background-color 0.3s, transform 0.1s; /* Smooth transition for feedback */
+      }
+      #next_train:hover {
+        background-color: #c5c5c5; /* A darker shade of green */
+        transform: translateY(-2px); /* Moves the button up slightly */
+      }
+      #next_train:active {
+        transform: translateY(1px); /* Moves the button down slightly */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjusts the shadow to appear "closer" to the surface */
+      }
+    </style>
+  </head>                                                         
+  <body>
+    <div id="text">
+    <h1 id="heading1" style="text-align:center">Now let's practice some examples.</h1>
+    <h2 id = "heading2" style="text-align:center">This is a new student. Please select an edge you would like to reveal to the student.</h2>
+    <h3 id = "heading3" style="text-align:center">To select the edge simply click on the edge and while it is highlighted click the next button.</h3>
+    </div>
+    <div id="container" style="margin: auto; width: 800px; height: 600px;"></div>
+    <div id="consent" style="margin:auto; width: 300px">
+        <p>
+          <input type="checkbox" id="selected" />
+        </p>
+    </div>
+    <div style="text-align:center; margin:auto; width:150px">
+      <button type="button" id="next_trial">next</button>
+  </div>
+  <div style="text-align:center; margin:auto; width:200px; height:50px">
+    <button type="button" id="next_train">next</button>
+  </div>
+  </body>
+  <script>
+    var edgelistSample = [
+    {from: '0', to: "1", id: "0to1", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: '0', to: "2", id: "0to2", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: '0', to: "3", id: "0to3", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "1", to: "4", id: "1to4", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "1", to: "5", id: "1to5", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "2", to: "4", id: "2to4", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "2", to: "5", id: "2to5", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "2", to: "6", id: "2to6", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "3", to: "5", id: "3to5", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "3", to: "6", id: "3to6", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "4", to: "7", id: "4to7", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "4", to: "8", id: "4to8", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "5", to: "7", id: "5to7", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "5", to: "8", id: "5to8", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "5", to: "9", id: "5to9", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "6", to: "8", id: "6to8", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    {from: "6", to: "9", id: "6to9", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+    ]; 
+    // function to check if the selected edge during training is the correct one
+    function checkTrainValue() {   
+        var edgeSelected = sessionStorage.getItem("edgeSelection");
+        // testing
+        // console.log("currently selected edge is: ")
+        // console.log(edgeSelected);
+
+        if (edgeSelected == "") {
+            document.getElementById("selected").checked = false;
+            return false;
+        } else {
+          document.getElementById("selected").checked = false;
+          var currTrainNum = parseInt(sessionStorage.getItem("currTrainNum"),10)
+          // console.log(currTrainNum)
+          var corrStr = "corr_" + currTrainNum
+          var correct = sessionStorage.getItem(corrStr)
+          // console.log(correct)
+
+          if (correct == "true") {
+            document.getElementById("container").innerHTML = ""
+            document.getElementById("text").innerHTML = ""
+            sessionStorage.setItem("currTrainNum",currTrainNum+1)
+            showCorrect(currTrainNum)
+            return false
+          } else {
+            document.getElementById("container").innerHTML = ""
+            document.getElementById("text").innerHTML = ""
+            sessionStorage.setItem("currTrainNum",currTrainNum+1)
+            showIncorrect(currTrainNum)
+            return false
+          }
+          return false
+        }
+        return true
+    };
+
+    function checkTempValue() {  
+      document.getElementById("selected").checked = false;
+      var currTrainNum = parseInt(sessionStorage.getItem("currTrainNum"), 10);
+      var corrAnswers = ["5to7", "5to7 5to9", "3to5 5to8", ["2to4","4to7","4to8","5to7","5to8"], ["1to4","1to5","3to5","5to9"]];
+    
+      // Handle the case where all trainings have been completed
+      if (currTrainNum === 5) {
+        setUpCheckBox();
+        document.getElementById("next_train").style.display = "none";
+        document.getElementById("next_trial").style.display = "inline";
+      } else {
+        // Prepare the environment for the next training
+        prepareForNextTraining(currTrainNum, corrAnswers);
+      }
+    
+      return false;
+    };
+    
+    function prepareForNextTraining(currTrainNum, corrAnswers) {
+      var textContent = "";
+      var nextHandler = checkTrainValue;
+    
+      // Adjust content and handler based on current training number
+      if (currTrainNum === 3 || currTrainNum === 4) {
+        textContent = '<h1 style="text-align:center">We are going to add a new step before teaching, this will help you teach better.</h1>\
+        <h2 style="text-align:center"> Instead of teaching an edge you will select <u>three</u> edges that are connecting the largest numbers. </h2>';
+      } else {
+        textContent = '<h1 style="text-align:center">Let us continue with another example.</h1>\
+        <h2 style="text-align:center">This is a new student. Please select the edge you would like to reveal to the student.</h2>';
+      }
+    
+      document.getElementById("text").innerHTML = textContent;
+      sessionStorage.setItem("edgeSelection", "");
+      document.getElementById("container").innerHTML = "";
+    
+      // Update the event listener for the next train button
+      document.getElementById("next_train").removeEventListener("click", checkTempValue);
+      document.getElementById("next_train").addEventListener("click", nextHandler, false);
+
+      if(currTrainNum==4){
+        clear_allEdges(edgelistSample)
+      }
+      setUpGraph(currTrainNum, corrAnswers, edgelistSample);
+    }
+    
+
+    function clear_allEdges(edgelistSample) {
+      edgelistSample.forEach(function(edge) {
+          edge.normal.stroke = { color: "#8b8b8b", thickness: "5", dash: "15 5" };
+          edge.hovered.stroke = { color: "#8b8b8b", thickness: "5" };
+      });
+    }
+  
+
+    function showCorrect(currNum) {
+      if (currNum == 0){
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">GOOD CHOICE!</h1>\
+        <h2 style="text-align:center">The student increased their points by 1:</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_1_teacher_correct_answer.png\" width=\"350\">"+ '<p> <br>\<br>\ Press next to continue.</p>'
+        
+      } else if (currNum == 1) {
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">GOOD CHOICE!</h1>\
+        <h2 style="text-align:center">Sometimes there could be more then one correct answer.</h2>\
+        <h2 style="text-align:center">Below are the two best choices.</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_2_correctanswer.png\" width=\"350\">"+
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      } else if (currNum == 2) {
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">GOOD CHOICE!</h1>\
+        <h2 style="text-align:center">Sometimes there are no clear best edge to reveal, but still, some are better than others.</h2>\
+        <h2 style="text-align:center">The yellow highlighted edge is only going to help if the student knows the blue edge.</h2>\
+        <h2 style="text-align:center">So for some students, the yellow highlighted edge may help but not for others.</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_3_correctanswer1.png\" width=\"350\">"+
+        "<img src=\"../../shared/img/training_3_correctanswer2.png\" width=\"350\">" +
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      }else if (currNum == 3) {
+        document.getElementById("next_train").style.display = "none"
+        document.getElementById("next_train").style.display = "inline"
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">GOOD CHOICE!</h1>\
+        <h2 style="text-align:center">The three best choices are the two <span style="color:#D088FB">purple</span> edges and one of the <span style="color:#70AD47">green</span> edges.</h2></h2>\
+        <div style="border: 1px solid; padding: 10px; text-align:left; width: fit-content; margin:auto;">\
+          <h3> <span style="color:#D088FB">Purple</span> edges are connected to +2 nodes. </h3>\
+          <h3> <span style="color:#70AD47">Green</span> edges are connected to a +2 node and a +1 node. </h3>\
+         </div>',
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_5_correctanswer_reward.png\" width=\"350\">"+
+        '<p> <br>\<br>\ Press next to continue.</p>'
+        //var container = document.getElementById("next_trial").parentElement;
+        // Adjust the margin
+        //container.style.marginTop = "-200px";    // move 200 pixels down
+      }else if (currNum == 4) {
+        document.getElementById("next_train").style.display = "none"
+        document.getElementById("next_train").style.display = "inline"
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">GOOD CHOICE!</h1>\
+        <h2 style="text-align:center">The three best choices are any 3 the <span style="color:#D088FB">purple</span> edges.</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_4_correctanswer_reward.png\" width=\"350\">"+
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      }
+      // console.log(currNum)
+
+      if (currNum < 5){
+        sessionStorage.setItem("edgeSelection","")
+        document.getElementById("next_train").removeEventListener("click", checkTrainValue);
+        document.getElementById("next_train").addEventListener("click", checkTempValue, false);
+      }
+    };
+    
+    function showIncorrect(currNum) {
+      if (currNum == 0){
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">BAD CHOICE!</h1>\
+        <h2 style="text-align:center">Below is the best edge to teach:</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_1_correctanswer.png\" width=\"350\">"+ '<p> <br>\<br>\ Press next to continue.</p>'
+      } else if (currNum == 1) {
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">BAD CHOICE!</h1>\
+        <h2 style="text-align:center">Sometimes there could be more then one correct answer.</h2>\
+        <h2 style="text-align:center">Below are the two best choices.</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_2_correctanswer.png\" width=\"350\">"+
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      } else if (currNum == 2) {
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">BAD CHOICE!</h1>\
+        <h2 style="text-align:center">Sometimes there are no clear best edge to reveal, but still, some are better than others.</h2>\
+        <h2 style="text-align:center">The yellow highlighted edge is only going to help if the student knows the blue edge.</h2>\
+        <h2 style="text-align:center">So for some students, the yellow highlighted edge may help but not for others.</h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_3_correctanswer1.png\" width=\"350\">"+
+        "<img src=\"../../shared/img/training_3_correctanswer2.png\" width=\"350\">" +
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      }else if (currNum == 3) {
+        document.getElementById("next_train").style.display = "none"
+        document.getElementById("next_train").style.display = "inline"
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">NOT THE BEST CHOICE!</h1>\
+        <h2 style="text-align:center">The three best choices are the two <span style="color:#D088FB">purple</span> edges and one of the <span style="color:#70AD47">green</span> edges.</h2></h2>\
+        <div style="border: 1px solid; padding: 10px; text-align:left; width: fit-content; margin:auto;">\
+          <h3> <span style="color:#D088FB">Purple</span> edges are connected to +2 nodes. </h3>\
+          <h3> <span style="color:#70AD47">Green</span> edges are connected to a +2 node and a +1 node. </h3>\
+         </div>',
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_5_correctanswer_reward.png\" width=\"350\">"+
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      }else if (currNum == 4) {
+        document.getElementById("next_train").style.display = "none"
+        document.getElementById("next_train").style.display = "inline"
+        document.getElementById("text").innerHTML = '<h1 style="text-align:center">NOT THE BEST CHOICE!</h1>\
+        <h2 style="text-align:center">The three best choices are any 3 the <span style="color:#D088FB">purple</span> edges. </h2>'
+        document.getElementById("container").innerHTML = "<img src=\"../../shared/img/training_4_correctanswer_reward.png\" width=\"350\">"+
+        '<p> <br>\<br>\ Press next to continue.</p>'
+      }
+      // console.log(currNum)
+
+      if (currNum < 5){
+        sessionStorage.setItem("edgeSelection","")
+        document.getElementById("next_train").removeEventListener("click", checkTrainValue);
+        document.getElementById("next_train").addEventListener("click", checkTempValue, false);
+      }
+    };
+
+    // MAIN CODE STARTS HERE
+    document.getElementById("selected").disabled = "disabled"
+    document.getElementById("selected").style.display = "none"
+    document.getElementById("next_trial").style.display = "none"
+    document.getElementById("next_train").addEventListener("click", checkTrainValue, false);
+
+    var trainNum = 0; 
+    sessionStorage.setItem("currTrainNum",trainNum)
+    var corrAnswers = ["5to7","5to7 5to9","3to5 5to8",["2to4","4to7","4to8","5to7","5to8"],["1to4","1to5","3to5","5to9"]]
+    setUpGraph(trainNum,corrAnswers,edgelistSample);
+ 
+    // var to keep track of incorrect
+    var numIncorrect = 0;
+    function end_experiment(numIncorrect) {
+      if (numIncorrect>1) {
+        low_quality = true;         // update nivturk global variable
+        currTrainNum=4
+        checkTempValue();
+      }
+    }
+    
+    // GRAPHING FUNCTIONS BELOW
+    function setUpGraph(index,expectedResults,edgelistSample) {
+      
+      var ret = makeNextGraph(index,edgelistSample);
+      var data = {
+            nodes: ret[0],
+            edges: ret[1],
+          };
+      let selectedEdges = [];
+      let selectedEdgeIDs = [];
+      //console.log(data)
+      var chart = showGraph(data)
+      var madeChart = chart.draw()
+      var newdata = []
+      // clears session storage
+      var currEdgeSelection = "";// going to be passed back to main with selected edge variable
+      sessionStorage.setItem("edgeSelection", currEdgeSelection);
+
+      var corrRes = expectedResults[index]
+
+      madeChart.listen('click', function(e) {
+         
+          var tag = e.domTarget.tag;
+          if (tag) {
+              // console.log(`Clicked ${tag.type} with ID ${tag.id}`);
+              if (tag.type === 'edge') {
+                if(index == 3 || index == 4){
+                    var tag = e.domTarget.tag;
+                    // Check if the target is an edge
+                    let edgeClick = e.domTarget.tag;
+                    
+                    if (edgeClick) {
+                      let edge = findEdgeById(edgeClick);
+                      if (edge) {
+                        let edgeIndex = selectedEdges.indexOf(edge);
+                        if (edgeIndex === -1) {
+                            // Edge is not selected, so select it
+                            //edge.normal.stroke = { color: "##D088FB", thickness: "8" };
+                            edge.normal.stroke = {color: "#D088FB", thickness: "8"}
+                            edge.hovered.stroke = "8 #D088FB";
+                            selectedEdges.push(edge);
+                            // If more than 3 edges are selected, deselect the first one
+                            if (selectedEdges.length > 3) {
+                              let deselectedEdge = selectedEdges.shift(); // Remove the first element
+                              deselectedEdge.normal.stroke = { color: "#8b8b8b", thickness: "5", dash: "15 5" };
+                              deselectedEdge.hovered.stroke = "5 #8b8b8b";
+                              }
+                            //redraws graph 
+                            delete chart;
+                            //edgelistSample = solve(csvArr[index], tag.id, edgelistSample)
+                            ret = makeNextGraph(index,edgelistSample)
+                            newdata = {
+                                nodes: ret[0],
+                                edges: ret[1],
+                                };
+                            chart.data(newdata); 
+                            selectedEdgeIDs = getEdgeID(selectedEdges);  
+                            sessionStorage.setItem("selectedEdgeIDs", selectedEdgeIDs);   
+                        } else {
+                            // Edge is already selected, so deselect it
+                            edge.normal.stroke = { color: "#8b8b8b", thickness: "5", dash: "15 5" };
+                            edge.hovered.stroke = "5 #8b8b8b";
+                            selectedEdges.splice(edgeIndex, 1);
+                            //redraws graph
+                            delete chart;
+                            ret = makeNextGraph(index,edgelistSample)
+                            newdata = {
+                                nodes: ret[0],
+                                edges: ret[1],
+                                };
+                            chart.data(newdata); 
+                          }
+
+                      }
+                    }
+                  }
+                // example: https://playground.anychart.com/VEKKIOFF/1
+                // just updates saved edge selection variable
+                if(index <= 2){                 
+                  // example: https://playground.anychart.com/VEKKIOFF/1
+                  // just updates saved edge selection variable
+                  currEdgeSelection = tag.id;
+                  var wasCorrect = "false"
+                  if (corrRes.includes(currEdgeSelection)){
+                    wasCorrect = "true"
+                  }
+                  // console.log(corrRes.includes(currEdgeSelection))
+      
+                  sessionStorage.setItem("edgeSelection", currEdgeSelection);// updates selected edge
+
+                  var corrStr = "corr_" + index
+                  sessionStorage.setItem(corrStr, wasCorrect)
+                }
+                else{
+                  currEdgeSelection = tag.id;
+                  var wasCorrect = "false"
+
+                  if (selectedEdgeIDs.every(element => corrRes.includes(element))){
+                    
+                    wasCorrect = "true"
+                  }
+                  // console.log(corrRes.includes(currEdgeSelection))
+      
+                  sessionStorage.setItem("edgeSelection", currEdgeSelection);// updates selected edge
+
+                  var corrStr = "corr_" + index
+                  sessionStorage.setItem(corrStr, wasCorrect)
+                }
+
+              } else if (tag.type === 'node') {
+                alert("Please select an individual dotted line. A group of lines or a circle will not be considered.")
+                chart.unselect();
+              }
+          }
+      });
+    }
+    function arraysEqual(arr1, arr2) {
+        if (arr1.length !== arr2.length) return false;
+    
+        const sortedArr1 = arr1.slice().sort();
+        const sortedArr2 = arr2.slice().sort();
+    
+        for (let i = 0; i < sortedArr1.length; i++) {
+            if (sortedArr1[i] !== sortedArr2[i]) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    function getEdgeID(selectedEdges) {
+      var edgeID = [];
+      for (let i = 0; i < selectedEdges.length; i++) {
+        edgeID.push(selectedEdges[i].id);
+      }
+      return edgeID;
+    }
+
+    function findEdgeById(edgeClick) {
+      for (var i = 0; i < edgelistSample.length; i++) {
+          if (edgelistSample[i].id === edgeClick.id) {
+              return edgelistSample[i];
+          }
+      }
+      return null; // Return null if no edge is found
+    }
+    
+    // function to check if an edge has been selected 
+    // 0: "11to8" 1: "11to9" 2: "11to10"3: "8to5" 4: "8to6" 5: "9to5" 6: "9to6" 7: "9to7" 8: "10to6" 9: "10to7" 10: "5to2"
+    // 11: "5to3" 12: "6to2" 13: "6to3" 14: "6to4" 15: "7to3" 16: "7to4" 17: "2"
+    // 18: "3" 19: "4" 20: "5" 21: "6" 22: "7" 23: "8" 24: "9" 25: "10" 26: "11"
+    function makeNextGraph(index,edgelistSample) {   
+      var edges = [];
+      var unselect_edges = [];
+      var groupNames = ["zeroth","first", "second", "third"];
+      
+      // change this to read from csv later
+      if (index == 0){
+        currData = {
+          '0to1':false, '0to2':true, '0to3':false,'1to4':false,'1to5':false,'2to4':false,'2to5':true,'2to6':false,
+          '3to5':false,'3to6':false,'4to7':false,'4to8':false,'5to7':false,'5to8':true,'5to9':false,'6to8':false,'6to9':false,
+          '0':0,'1':0,'2':1,'3':0,'4':0,'5':1,'6':0,'7':2,'8':1,'9':0
+        }
+      } else if (index == 1) {
+        currData = {
+          '0to1':false, '0to2':true, '0to3':false,'1to4':false,'1to5':false,'2to4':false,'2to5':true,'2to6':false,
+          '3to5':false,'3to6':false,'4to7':false,'4to8':false,'5to7':false,'5to8':true,'5to9':false,'6to8':false,'6to9':false,
+          '0':0,'1':0,'2':1,'3':0,'4':0,'5':1,'6':0,'7':2,'8':1,'9':2
+        }
+      } else if (index == 2) {
+        currData = {
+          '0to1':false, '0to2':false, '0to3':true,'1to4':false,'1to5':false,'2to4':false,'2to5':false,'2to6':false,
+          '3to5':false,'3to6':true,'4to7':false,'4to8':false,'5to7':false,'5to8':false,'5to9':false,'6to8':true,'6to9':false,
+          '0':0,'1':0,'2':0,'3':1,'4':0,'5':2,'6':1,'7':0,'8':2,'9':0
+        }
+      }else if (index == 3) {
+        currData = {
+          '0to1':false, '0to2':true, '0to3':false,'1to4':false,'1to5':false,'2to4':false,'2to5':true,'2to6':false,
+          '3to5':false,'3to6':false,'4to7':false,'4to8':false,'5to7':false,'5to8':false,'5to9':true,'6to8':false,'6to9':false,
+          '0':0,'1':0,'2':1,'3':0,'4':2,'5':1,'6':0,'7':2,'8':2,'9':1
+        }
+      }else if (index == 4) {
+        currData = {
+          '0to1':false, '0to2':true, '0to3':false,'1to4':false,'1to5':false,'2to4':true,'2to5':false,'2to6':false,
+          '3to5':false,'3to6':false,'4to7':true,'4to8':false,'5to7':false,'5to8':false,'5to9':false,'6to8':false,'6to9':false,
+          '0':0,'1':3,'2':2,'3':3,'4':1,'5':2,'6':0,'7':0,'8':1,'9':3
+        }
+      }
+      if (index < 3){
+        var edgelistSample = [
+        {from: '0', to: "1", id: "0to1", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: '0', to: "2", id: "0to2", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: '0', to: "3", id: "0to3", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "1", to: "4", id: "1to4", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "1", to: "5", id: "1to5", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "2", to: "4", id: "2to4", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "2", to: "5", id: "2to5", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "2", to: "6", id: "2to6", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "3", to: "5", id: "3to5", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "3", to: "6", id: "3to6", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "4", to: "7", id: "4to7", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "4", to: "8", id: "4to8", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "5", to: "7", id: "5to7", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "5", to: "8", id: "5to8", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "5", to: "9", id: "5to9", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "6", to: "8", id: "6to8", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        {from: "6", to: "9", id: "6to9", normal: {stroke: {color: "#8b8b8b", thickness: "5", dash: "15 5",}}, selected: {stroke: "8 #ffb000"}, hovered: {stroke: {color: "#8b8b8b", thickness: "5"}}},
+        ]; 
+      }
+
+       var node = [
+        {id: "0", x: 0, y: -80, group: groupNames[parseInt(currData["0"])]},
+        {id: "1", x: -150, y: 46, group: groupNames[parseInt(currData["1"])]},
+        {id: "2", x: 0, y: 46, group: groupNames[parseInt(currData["2"])]},
+        {id: "3", x: 150, y: 46, group: groupNames[parseInt(currData["3"])]},
+        {id: "4", x: -150, y: 172, group: groupNames[parseInt(currData["4"])]},
+        {id: "5", x: 0, y: 172, group: groupNames[parseInt(currData["5"])]},
+        {id: "6", x: 150, y: 172, group: groupNames[parseInt(currData["6"])]},
+        {id: "7", x: -150, y: 298, group: groupNames[parseInt(currData["7"])]},
+        {id: "8", x: 0, y: 298, group: groupNames[parseInt(currData["8"])]},
+        {id: "9", x: 150, y: 298, group: groupNames[parseInt(currData["9"])]},
+      ];
+      var edgeNames = ["0to1", "0to2", "0to3", "1to4", "1to5", "2to4", "2to5", "2to6", "3to5","3to6", "4to7", "4to8", "5to7", "5to8", "5to9", "6to8", "6to9"];
+
+      for (let i = 0; i <= edgeNames.length; i++) {
+        var edgeVar = edgelistSample[i]
+        
+        if (currData[edgeNames[i]] == true && edgeVar.normal.stroke.color == "#8b8b8b") {
+            //console.log(i)  
+            edgeVar.normal = {stroke: {color: "#000000", thickness: "8"}}
+            edgeVar.hovered = {stroke: {color: "#000000", thickness: "8"}}
+            edgeVar.selected = {stroke: {color: "#ffb000", thickness: "8"}}
+        }
+
+        edges.push(edgeVar)
+      };
+      return [node, edges]
+    };
+
+
+    // link below:
+    // https://api.anychart.com/v8/anychart.charts.Graph#labels
+    // MAKES NODES GRAPH USING PLUGIN:
+    function showGraph(dataInput){
+      var chart = anychart.graph(dataInput);
+      //licance
+      // anychart.licenseKey() removed for public demo - will show AnyChart watermark;
+      var credits = chart.credits();
+      credits.enabled(false);
+
+      chart.container("container");
+
+      chart.interactivity().enabled(false);//prevents it from moving
+
+      // set the layout type
+      chart.layout().type("fixed");
+
+      // makes it a specific size
+
+      chart.nodes().normal().height(50);
+      chart.nodes().hovered().height(50);
+      chart.nodes().selected().height(50);
+      chart.nodes().normal().stroke('Black',2);
+      chart.nodes().hovered().stroke('Black',2);
+      chart.nodes().selected().stroke('Black',2);
+      // makes hover label not show up
+      chart.nodes().tooltip().enabled(false);
+      chart.edges().tooltip().enabled(false);
+
+      // adds colors to groups
+      // var colorList = ['#808000','#e69090', "#d85f5f", "#B22222", "#800000"];
+      var colorList = ['#FFF5F0','#e0a994', "#e37f6b", "#FF0000"];
+      //var colorList = ['#ffffff','#fe6100', "#dc267f", "#785ef0"];
+      var zeroth = chart.group("zeroth");
+      var first = chart.group("first");
+      var second = chart.group("second");
+      var third = chart.group("third");
+      // var fourth = chart.group("fourth");
+
+      // enable the labels of nodes
+      chart.nodes().labels().enabled(true);
+      chart.nodes().labels().fontColor("White");
+      chart.nodes().labels().position("center").anchor('center');
+  
+      if (zeroth != null) {
+        zeroth.fill(colorList[0]);
+        chart.group("zeroth").labels().fontColor("Black");
+        chart.group("zeroth").labels().format("0");
+        chart.group("zeroth").labels().fontSize(20);
+        chart.group("zeroth").labels().fontWeight(600);
+      }
+
+      if (first != null) {
+        first.fill(colorList[1]);
+        chart.group("first").labels().format("+1");
+        chart.group("first").labels().fontSize(20);
+        chart.group("first").labels().fontWeight(600);
+      }
+      if (second != null) {
+        second.fill(colorList[2]);
+        chart.group("second").labels().format("+2");
+        chart.group("second").labels().fontSize(20);
+        chart.group("second").labels().fontWeight(600);
+      }
+      if (third != null) {
+        third.fill(colorList[3]);
+        chart.group("third").labels().format("+3");
+        chart.group("third").labels().fontSize(20);
+        chart.group("third").labels().fontWeight(600);
+      }
+      //return chart;
+      return chart;
+    };
+
+    function setUpCheckBox() {
+      // makes checkbox clickable, which returns to jspsych
+      //document.getElementById("selected").disabled = "enabled"
+      //document.getElementById("selected").checked = true;
+    }
+ 
+
+
+    
+    
+    
+    
+    
+  
+  
+
+  </script>
+</html>

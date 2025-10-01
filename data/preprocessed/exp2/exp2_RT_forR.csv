@@ -1,0 +1,1258 @@
+,subjID,edgeRT,model,trial,group,block,logRT_ms
+0,s0,1211.0,Reward Heuristic,20.0,Congruent,test,7.099201743553092
+1,s0,4521.0,Reward Heuristic,21.0,Congruent,test,8.416488487294606
+2,s0,14196.0,Reward Heuristic,22.0,Congruent,test,9.560715513766388
+3,s0,6765.0,Reward Heuristic,23.0,Congruent,test,8.819517540604888
+4,s0,10300.0,Reward Heuristic,24.0,Congruent,test,9.239899174217728
+5,s1,9920.0,Bayes Optimal Teacher,20.0,Congruent,test,9.20230820027892
+6,s1,17160.0,Bayes Optimal Teacher,21.0,Congruent,test,9.750336373041954
+7,s1,6461.0,Bayes Optimal Teacher,22.0,Congruent,test,8.773539383558166
+8,s1,8914.0,Bayes Optimal Teacher,23.0,Congruent,test,9.0953783535065
+9,s1,7434.0,Bayes Optimal Teacher,24.0,Congruent,test,8.913819350857198
+10,s2,10494.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.258558944246657
+11,s2,14111.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.55470991405776
+12,s2,7878.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.971829343530851
+13,s2,4123.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.3243363327069
+14,s2,12437.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.42843117965374
+15,s3,4628.0,Bayes Optimal Teacher,20.0,Congruent,test,8.439880088313567
+16,s3,5400.0,Bayes Optimal Teacher,21.0,Congruent,test,8.594154232552366
+17,s3,5832.0,Bayes Optimal Teacher,22.0,Congruent,test,8.671115273688494
+18,s3,3886.0,Bayes Optimal Teacher,23.0,Congruent,test,8.265135629937385
+19,s3,8105.0,Bayes Optimal Teacher,24.0,Congruent,test,9.000236434169777
+20,s4,5075.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.532081803909987
+21,s4,3210.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.07402621612406
+22,s4,5722.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.652073673610056
+23,s4,5113.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.53954159508
+24,s4,7363.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.904222737368716
+25,s5,3837.0,Reward Heuristic,19.0,Incongruent,test,8.252446090246952
+26,s5,2523.0,Reward Heuristic,20.0,Incongruent,test,7.833203948641057
+27,s5,11478.0,Reward Heuristic,21.0,Incongruent,test,9.348187438668308
+28,s5,4091.0,Reward Heuristic,22.0,Incongruent,test,8.316544717929398
+29,s5,2861.0,Reward Heuristic,23.0,Incongruent,test,7.95892649305011
+30,s7,12969.0,Bayes Optimal Teacher,20.0,Congruent,test,9.470317173335742
+31,s7,11902.0,Bayes Optimal Teacher,21.0,Congruent,test,9.384461732204798
+32,s7,9833.0,Bayes Optimal Teacher,22.0,Congruent,test,9.193499354780156
+33,s7,4643.0,Bayes Optimal Teacher,23.0,Congruent,test,8.443115988019922
+34,s7,15971.0,Bayes Optimal Teacher,24.0,Congruent,test,9.67852985665631
+35,s8,5737.0,Bayes Optimal Teacher,19.0,Congruent,test,8.654691704601872
+36,s8,5065.0,Bayes Optimal Teacher,20.0,Congruent,test,8.530109416682784
+37,s8,3512.0,Bayes Optimal Teacher,21.0,Congruent,test,8.163940954755008
+38,s8,7753.0,Bayes Optimal Teacher,22.0,Congruent,test,8.955835144218959
+39,s8,9235.0,Bayes Optimal Teacher,23.0,Congruent,test,9.13075589263334
+40,s9,8937.0,Reward Heuristic,19.0,Congruent,test,9.097955241381392
+41,s9,5495.0,Reward Heuristic,20.0,Congruent,test,8.611593866837723
+42,s9,6415.0,Reward Heuristic,21.0,Congruent,test,8.766394277049736
+43,s9,3667.0,Reward Heuristic,22.0,Congruent,test,8.207129168071326
+44,s9,3289.0,Reward Heuristic,23.0,Congruent,test,8.098338846189057
+45,s10,11171.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.321076413570848
+46,s10,8708.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.071997422354437
+47,s10,5569.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.624970783589669
+48,s10,5203.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.556990661290303
+49,s10,8290.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.022805248129341
+50,s11,4911.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.499232866039245
+51,s11,3794.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.24117615049496
+52,s11,2808.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.940227765145702
+53,s11,2601.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.8636512654486515
+54,s11,9663.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.176059437999308
+55,s12,3430.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.140315540159985
+56,s12,8827.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.085570485020233
+57,s12,4224.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.348537825386098
+58,s12,2815.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.942717540573791
+59,s12,3356.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.118505067587098
+60,s13,13077.0,Bayes Optimal Teacher,20.0,Congruent,test,9.478610240906502
+61,s13,8972.0,Bayes Optimal Teacher,21.0,Congruent,test,9.101863895640099
+62,s13,10431.0,Bayes Optimal Teacher,22.0,Congruent,test,9.25253742067597
+63,s13,6428.0,Bayes Optimal Teacher,23.0,Congruent,test,8.768418726857403
+64,s13,14336.0,Bayes Optimal Teacher,24.0,Congruent,test,9.570529135214711
+65,s14,5677.0,Bayes Optimal Teacher,20.0,Congruent,test,8.644178203170727
+66,s14,2378.0,Bayes Optimal Teacher,21.0,Congruent,test,7.774015077250727
+67,s14,2516.0,Bayes Optimal Teacher,22.0,Congruent,test,7.830425617820331
+68,s14,5059.0,Bayes Optimal Teacher,23.0,Congruent,test,8.528924114291936
+69,s14,6660.0,Bayes Optimal Teacher,24.0,Congruent,test,8.803874763534434
+70,s15,1805.0,Reward Heuristic,19.0,Congruent,test,7.498315870766981
+71,s15,1649.0,Reward Heuristic,20.0,Congruent,test,7.407924322559599
+72,s15,12956.0,Reward Heuristic,21.0,Congruent,test,9.46931428029122
+73,s15,1628.0,Reward Heuristic,22.0,Congruent,test,7.395107546562485
+74,s15,5107.0,Reward Heuristic,23.0,Congruent,test,8.538367426647644
+75,s16,2859.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.958227192322312
+76,s16,8213.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.013473543740192
+77,s16,9242.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.131513591430211
+78,s16,3025.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.014666370464942
+79,s16,10719.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.27977314669152
+80,s17,11123.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.316770315592029
+81,s17,3848.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.255308811785596
+82,s17,4108.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.32069157104845
+83,s17,6255.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.741136422901011
+84,s17,15271.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.633710883953182
+85,s18,9673.0,Reward Heuristic,20.0,Congruent,test,9.177093778182547
+86,s18,8713.0,Reward Heuristic,21.0,Congruent,test,9.072571442231286
+87,s18,18136.0,Reward Heuristic,22.0,Congruent,test,9.805654192187365
+88,s18,7273.0,Reward Heuristic,23.0,Congruent,test,8.89192414015454
+89,s18,17503.0,Reward Heuristic,24.0,Congruent,test,9.770127573790836
+90,s19,8253.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.018332049592685
+91,s19,8295.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.023408202624545
+92,s19,1918.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.559038255443384
+93,s19,5338.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.58260632996447
+94,s19,7687.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.947285869349132
+95,s20,3445.0,Bayes Optimal Teacher,20.0,Congruent,test,8.144679183447758
+96,s20,4420.0,Bayes Optimal Teacher,21.0,Congruent,test,8.393894975071744
+97,s20,3230.0,Bayes Optimal Teacher,22.0,Congruent,test,8.080237416216702
+98,s20,1968.0,Bayes Optimal Teacher,23.0,Congruent,test,7.584773077612199
+99,s20,7485.0,Bayes Optimal Teacher,24.0,Congruent,test,8.920656296853728
+100,s21,2603.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.864419904994565
+101,s21,2003.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.602401335665818
+102,s21,1332.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.194436851100335
+103,s21,2445.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.801800401908973
+104,s21,13209.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.488653694423864
+105,s22,3561.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.177796683277778
+106,s22,6415.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.766394277049736
+107,s22,2275.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.729735331385051
+108,s22,7268.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.891236429516061
+109,s22,8946.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.098961783992793
+110,s23,5433.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.600246746551523
+111,s23,3231.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.080546965824498
+112,s23,5700.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.648221453822641
+113,s23,3510.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.163371316459912
+114,s23,4449.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.400434630806041
+115,s24,8690.0,Bayes Optimal Teacher,20.0,Congruent,test,9.069928218259438
+116,s24,4409.0,Bayes Optimal Teacher,21.0,Congruent,test,8.391403185357937
+117,s24,3620.0,Bayes Optimal Teacher,22.0,Congruent,test,8.194229304819817
+118,s24,10721.0,Bayes Optimal Teacher,23.0,Congruent,test,9.27995971385624
+119,s24,9485.0,Bayes Optimal Teacher,24.0,Congruent,test,9.157466882369114
+120,s25,5408.0,Reward Heuristic,20.0,Incongruent,test,8.5956346177228
+121,s25,6065.0,Reward Heuristic,21.0,Incongruent,test,8.71028982137815
+122,s25,11166.0,Reward Heuristic,22.0,Incongruent,test,9.320628725870305
+123,s25,7225.0,Reward Heuristic,23.0,Incongruent,test,8.885302512980633
+124,s25,7764.0,Reward Heuristic,24.0,Incongruent,test,8.957252944288902
+125,s26,11590.0,Reward Heuristic,19.0,Incongruent,test,9.357897936333798
+126,s26,12542.0,Reward Heuristic,20.0,Incongruent,test,9.436838291102966
+127,s26,18735.0,Reward Heuristic,21.0,Incongruent,test,9.838148711227788
+128,s26,4642.0,Reward Heuristic,22.0,Incongruent,test,8.442900586834382
+129,s26,7462.0,Reward Heuristic,23.0,Incongruent,test,8.917578753781104
+130,s27,12351.0,Reward Heuristic,20.0,Congruent,test,9.421492310438014
+131,s27,6455.0,Reward Heuristic,21.0,Congruent,test,8.772610303280743
+132,s27,6179.0,Reward Heuristic,22.0,Congruent,test,8.72891172506098
+133,s27,4991.0,Reward Heuristic,23.0,Congruent,test,8.515391569469609
+134,s27,6525.0,Reward Heuristic,24.0,Congruent,test,8.783396232190894
+135,s28,12344.0,Bayes Optimal Teacher,20.0,Congruent,test,9.420925394042996
+136,s28,4720.0,Bayes Optimal Teacher,21.0,Congruent,test,8.459564078579602
+137,s28,6924.0,Bayes Optimal Teacher,22.0,Congruent,test,8.8427489162961
+138,s28,4416.0,Bayes Optimal Teacher,23.0,Congruent,test,8.392989587956931
+139,s28,11668.0,Bayes Optimal Teacher,24.0,Congruent,test,9.364605330987612
+140,s29,9883.0,Bayes Optimal Teacher,20.0,Congruent,test,9.198571388376184
+141,s29,3006.0,Bayes Optimal Teacher,21.0,Congruent,test,8.00836557031292
+142,s29,2436.0,Bayes Optimal Teacher,22.0,Congruent,test,7.798112628829788
+143,s29,1983.0,Bayes Optimal Teacher,23.0,Congruent,test,7.592366128519796
+144,s29,5625.0,Bayes Optimal Teacher,24.0,Congruent,test,8.63497622707262
+145,s30,5138.0,Reward Heuristic,20.0,Congruent,test,8.544419177669829
+146,s30,2616.0,Reward Heuristic,21.0,Congruent,test,7.86940171257709
+147,s30,7030.0,Reward Heuristic,22.0,Congruent,test,8.857941984804711
+148,s30,2287.0,Reward Heuristic,23.0,Congruent,test,7.734996194022781
+149,s30,11742.0,Reward Heuristic,24.0,Congruent,test,9.37092743662413
+150,s31,5195.0,Reward Heuristic,20.0,Incongruent,test,8.555451903533328
+151,s31,11748.0,Reward Heuristic,21.0,Incongruent,test,9.37143829231851
+152,s31,4905.0,Reward Heuristic,22.0,Incongruent,test,8.498010371999463
+153,s31,3449.0,Reward Heuristic,23.0,Incongruent,test,8.145839612936841
+154,s31,14913.0,Reward Heuristic,24.0,Incongruent,test,9.609988594762783
+155,s32,1547.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.344072850573066
+156,s32,2112.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.655390644826152
+157,s32,3065.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.027802848370312
+158,s32,2874.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.96346006663897
+159,s32,16412.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.705768053562077
+160,s33,5814.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.668024081118821
+161,s33,6650.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.8023721336499
+162,s33,4831.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.482808764554406
+163,s33,3218.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.076515327552329
+164,s33,11052.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.310366686043308
+165,s34,4327.0,Bayes Optimal Teacher,19.0,Congruent,test,8.372629740224884
+166,s34,3758.0,Bayes Optimal Teacher,20.0,Congruent,test,8.231642179973411
+167,s34,3457.0,Bayes Optimal Teacher,21.0,Congruent,test,8.148156439921625
+168,s34,2097.0,Bayes Optimal Teacher,22.0,Congruent,test,7.64826303090192
+169,s34,6295.0,Bayes Optimal Teacher,23.0,Congruent,test,8.747510946478448
+170,s35,8065.0,Reward Heuristic,20.0,Congruent,test,8.99528899055931
+171,s35,6592.0,Reward Heuristic,21.0,Congruent,test,8.793612071589308
+172,s35,18318.0,Reward Heuristic,22.0,Congruent,test,9.815639461962933
+173,s35,3511.0,Reward Heuristic,23.0,Congruent,test,8.163656176168432
+174,s35,7342.0,Reward Heuristic,24.0,Congruent,test,8.90136656405678
+175,s36,10274.0,Reward Heuristic,20.0,Congruent,test,9.237371711027214
+176,s36,10056.0,Reward Heuristic,21.0,Congruent,test,9.215924750270084
+177,s36,3628.0,Reward Heuristic,22.0,Congruent,test,8.196436811235028
+178,s36,13458.0,Reward Heuristic,23.0,Congruent,test,9.507329003748263
+179,s36,15498.0,Reward Heuristic,24.0,Congruent,test,9.648466262323895
+180,s37,1999.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.6004023345004
+181,s37,3582.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.183676582620658
+182,s37,2297.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.739359202689098
+183,s37,3070.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.029432840581244
+184,s37,3249.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.0861025356691
+185,s38,6442.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.770594329891145
+186,s38,3263.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.09040229659332
+187,s38,2726.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.9105906122564775
+188,s38,9983.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.208638925336425
+189,s38,11746.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.371268036082466
+190,s39,2128.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.662937850461535
+191,s39,3950.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.281470857895167
+192,s39,1637.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.400620577371135
+193,s39,3297.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.10076824307173
+194,s39,10520.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.261033486291701
+195,s40,16104.0,Reward Heuristic,20.0,Incongruent,test,9.686822967319628
+196,s40,6019.0,Reward Heuristic,21.0,Incongruent,test,8.70267641154777
+197,s40,12155.0,Reward Heuristic,22.0,Incongruent,test,9.405495886750224
+198,s40,12451.0,Reward Heuristic,23.0,Incongruent,test,9.429556219952412
+199,s41,4084.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.314832179284556
+200,s41,2244.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.716015266642587
+201,s41,2310.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.745002803515839
+202,s41,4967.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.51057131510735
+203,s41,7778.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.959054514715692
+204,s42,5563.0,Reward Heuristic,20.0,Congruent,test,8.623892810075294
+205,s42,7147.0,Reward Heuristic,21.0,Congruent,test,8.874447967219979
+206,s42,1958.0,Reward Heuristic,22.0,Congruent,test,7.579678823090456
+207,s42,1810.0,Reward Heuristic,23.0,Congruent,test,7.501082124259871
+208,s42,2008.0,Reward Heuristic,24.0,Congruent,test,7.60489448081162
+209,s43,10369.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.246575864558277
+210,s43,11786.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.374667665397858
+211,s43,7743.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.954544488386723
+212,s43,4204.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.343791731996841
+213,s43,5583.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.62748154531036
+214,s44,1625.0,Reward Heuristic,20.0,Congruent,test,7.393263094763838
+215,s44,8379.0,Reward Heuristic,21.0,Congruent,test,9.033483854613287
+216,s44,2819.0,Reward Heuristic,22.0,Congruent,test,7.9441374911141125
+217,s44,2411.0,Reward Heuristic,23.0,Congruent,test,7.787796878181171
+218,s44,1543.0,Reward Heuristic,24.0,Congruent,test,7.341483852363161
+219,s45,5562.0,Bayes Optimal Teacher,20.0,Congruent,test,8.62371303479391
+220,s45,1959.0,Bayes Optimal Teacher,21.0,Congruent,test,7.580189417944541
+221,s45,2120.0,Bayes Optimal Teacher,22.0,Congruent,test,7.659171367666058
+222,s45,1648.0,Bayes Optimal Teacher,23.0,Congruent,test,7.4073177104694174
+223,s45,5938.0,Bayes Optimal Teacher,24.0,Congruent,test,8.689127655323706
+224,s46,3240.0,Reward Heuristic,18.0,Incongruent,test,8.083328608786376
+225,s46,11384.0,Reward Heuristic,19.0,Incongruent,test,9.339964139769688
+226,s46,4702.0,Reward Heuristic,20.0,Incongruent,test,8.455743229100015
+227,s46,3923.0,Reward Heuristic,21.0,Incongruent,test,8.274611946209552
+228,s46,2241.0,Reward Heuristic,22.0,Incongruent,test,7.714677473800927
+229,s47,10316.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.241451367001236
+230,s47,20239.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.915366715066206
+231,s47,7490.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.921324076511265
+232,s47,5312.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.57772369115627
+233,s48,5616.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.633374945705647
+234,s48,6169.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.72729202920964
+235,s48,8866.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.089979015305
+236,s48,3813.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.246171559857563
+237,s48,10742.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.281916570465405
+238,s49,8233.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.015905747298426
+239,s49,4403.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.390041405755754
+240,s49,10013.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.211639527707803
+241,s49,9909.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.201198714058899
+242,s49,9461.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.154933364704444
+243,s50,3578.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.182559264068665
+244,s50,2892.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.969703583278656
+245,s50,5185.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.553525120663627
+246,s50,4048.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.305978210967302
+247,s50,6578.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.791486026749002
+248,s51,5803.0,Bayes Optimal Teacher,20.0,Congruent,test,8.666130304190608
+249,s51,4697.0,Bayes Optimal Teacher,21.0,Congruent,test,8.454679286026995
+250,s51,6653.0,Bayes Optimal Teacher,22.0,Congruent,test,8.802823159741887
+251,s51,6836.0,Bayes Optimal Teacher,23.0,Congruent,test,8.829958044235482
+252,s51,3131.0,Bayes Optimal Teacher,24.0,Congruent,test,8.049107721326406
+253,s52,5947.0,Reward Heuristic,20.0,Congruent,test,8.690642169706594
+254,s52,2143.0,Reward Heuristic,21.0,Congruent,test,7.669961995473577
+255,s52,4191.0,Reward Heuristic,22.0,Congruent,test,8.340694647925071
+256,s52,3591.0,Reward Heuristic,23.0,Congruent,test,8.186185994226083
+257,s52,2294.0,Reward Heuristic,24.0,Congruent,test,7.738052297689316
+258,s53,6871.0,Bayes Optimal Teacher,19.0,Incongruent,test,8.835064935031076
+259,s53,3156.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.057060681965766
+260,s53,3102.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.039802343736485
+261,s53,6716.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.812248018197431
+262,s53,15801.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.6678285081515
+263,s54,5454.0,Reward Heuristic,20.0,Congruent,test,8.604104563405533
+264,s54,3829.0,Reward Heuristic,21.0,Congruent,test,8.250358951477294
+265,s54,4854.0,Reward Heuristic,22.0,Congruent,test,8.487558386286548
+266,s54,4019.0,Reward Heuristic,23.0,Congruent,test,8.2987883944492
+267,s54,2743.0,Reward Heuristic,24.0,Congruent,test,7.916807490937603
+268,s55,8509.0,Bayes Optimal Teacher,20.0,Congruent,test,9.048879705849558
+269,s55,4976.0,Bayes Optimal Teacher,21.0,Congruent,test,8.512381634419015
+270,s55,5325.0,Bayes Optimal Teacher,22.0,Congruent,test,8.580167990577626
+271,s55,6231.0,Bayes Optimal Teacher,23.0,Congruent,test,8.737292112544221
+272,s55,5835.0,Bayes Optimal Teacher,24.0,Congruent,test,8.671629544720656
+273,s56,12825.0,Reward Heuristic,20.0,Congruent,test,9.45915167003897
+274,s56,18045.0,Reward Heuristic,21.0,Congruent,test,9.800623917076889
+275,s56,10978.0,Reward Heuristic,22.0,Congruent,test,9.303648549109834
+276,s56,12462.0,Reward Heuristic,23.0,Congruent,test,9.430439293104167
+277,s57,8164.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.007489523929735
+278,s57,9949.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.20522732258936
+279,s57,13191.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.48729005784892
+280,s57,10119.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.222170123729759
+281,s57,9683.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.17812704961153
+282,s58,23223.0,Reward Heuristic,20.0,Congruent,test,10.052898445872824
+283,s58,13568.0,Reward Heuristic,21.0,Congruent,test,9.515469358031684
+284,s58,1989.0,Reward Heuristic,22.0,Congruent,test,7.5953872788539725
+285,s58,20549.0,Reward Heuristic,23.0,Congruent,test,9.93056755693987
+286,s58,16806.0,Reward Heuristic,24.0,Congruent,test,9.729491244488164
+287,s59,9660.0,Bayes Optimal Teacher,20.0,Congruent,test,9.175748927206564
+288,s59,10786.0,Bayes Optimal Teacher,21.0,Congruent,test,9.286004275897172
+289,s59,11792.0,Bayes Optimal Teacher,22.0,Congruent,test,9.375176614429117
+290,s59,10320.0,Bayes Optimal Teacher,23.0,Congruent,test,9.241839039035554
+291,s59,15270.0,Bayes Optimal Teacher,24.0,Congruent,test,9.633645398212678
+292,s60,13676.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.523397750759193
+293,s60,11645.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.36263218231844
+294,s60,14209.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.561630845638076
+295,s60,15464.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.646270020888167
+296,s60,7882.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.97233695775495
+297,s61,5976.0,Reward Heuristic,19.0,Incongruent,test,8.695506726812653
+298,s61,13033.0,Reward Heuristic,20.0,Incongruent,test,9.47523988153072
+299,s61,8185.0,Reward Heuristic,21.0,Incongruent,test,9.010058489805235
+300,s61,5246.0,Reward Heuristic,22.0,Incongruent,test,8.56522116042682
+301,s61,6427.0,Reward Heuristic,23.0,Incongruent,test,8.768263145371286
+302,s62,2981.0,Bayes Optimal Teacher,19.0,Incongruent,test,8.000014093678072
+303,s62,4420.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.393894975071744
+304,s62,4199.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.342601680684194
+305,s62,3036.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.01829613851552
+306,s62,4432.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.39660622842712
+307,s63,2596.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.86172707782398
+308,s63,4480.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.40737832540903
+309,s63,4094.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.317277766221235
+310,s63,5716.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.651024539049757
+311,s64,5072.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.531490496117062
+312,s64,3182.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.065265208897733
+313,s64,8158.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.006754319877503
+314,s64,7137.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.873047798971067
+315,s64,6763.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.81922185757494
+316,s65,1703.0,Reward Heuristic,20.0,Congruent,test,7.440146680662688
+317,s65,2189.0,Reward Heuristic,21.0,Congruent,test,7.691200097522863
+318,s65,22427.0,Reward Heuristic,22.0,Congruent,test,10.018020869126289
+319,s65,3177.0,Reward Heuristic,23.0,Congruent,test,8.063692634269517
+320,s65,1302.0,Reward Heuristic,24.0,Congruent,test,7.171656822768514
+321,s66,1960.0,Reward Heuristic,20.0,Congruent,test,7.580699752224563
+322,s66,2618.0,Reward Heuristic,21.0,Congruent,test,7.870165946469845
+323,s66,5954.0,Reward Heuristic,22.0,Congruent,test,8.691818541575723
+324,s66,3950.0,Reward Heuristic,23.0,Congruent,test,8.281470857895167
+325,s66,2474.0,Reward Heuristic,24.0,Congruent,test,7.813591552952433
+326,s67,12120.0,Bayes Optimal Teacher,20.0,Congruent,test,9.402612259623305
+327,s67,11828.0,Bayes Optimal Teacher,21.0,Congruent,test,9.378224880972368
+328,s67,10765.0,Bayes Optimal Teacher,22.0,Congruent,test,9.284055409798464
+329,s67,8040.0,Bayes Optimal Teacher,23.0,Congruent,test,8.992184362173012
+330,s67,14408.0,Bayes Optimal Teacher,24.0,Congruent,test,9.575538886855792
+331,s68,5709.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.64979915596426
+332,s68,1822.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.507690077819904
+333,s68,2254.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.720461694599722
+334,s68,1967.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.584264818389059
+335,s68,11483.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.34862295977619
+336,s69,3086.0,Reward Heuristic,20.0,Incongruent,test,8.034631032923107
+337,s69,3261.0,Reward Heuristic,21.0,Incongruent,test,8.089789175789319
+338,s69,4561.0,Reward Heuristic,22.0,Incongruent,test,8.4252971767117
+339,s69,5936.0,Reward Heuristic,23.0,Incongruent,test,8.688790784847216
+340,s69,1865.0,Reward Heuristic,24.0,Incongruent,test,7.5310163320779155
+341,s70,6822.0,Reward Heuristic,19.0,Incongruent,test,8.82790796297859
+342,s70,2292.0,Reward Heuristic,20.0,Incongruent,test,7.73718007783463
+343,s70,12287.0,Reward Heuristic,21.0,Incongruent,test,9.416297071867572
+344,s70,3312.0,Reward Heuristic,22.0,Incongruent,test,8.10530751550515
+345,s70,2421.0,Reward Heuristic,23.0,Incongruent,test,7.791935956938058
+346,s71,8079.0,Reward Heuristic,20.0,Congruent,test,8.997023381479709
+347,s71,4170.0,Reward Heuristic,21.0,Congruent,test,8.335671314792847
+348,s71,7009.0,Reward Heuristic,22.0,Congruent,test,8.854950316500325
+349,s71,4819.0,Reward Heuristic,23.0,Congruent,test,8.480321716640333
+350,s71,7638.0,Reward Heuristic,24.0,Congruent,test,8.940891067785461
+351,s72,3265.0,Reward Heuristic,20.0,Congruent,test,8.09101504171053
+352,s72,3874.0,Reward Heuristic,21.0,Congruent,test,8.262042843966942
+353,s72,2640.0,Reward Heuristic,22.0,Congruent,test,7.878534196140362
+354,s72,3654.0,Reward Heuristic,23.0,Congruent,test,8.203577736937952
+355,s72,2302.0,Reward Heuristic,24.0,Congruent,test,7.741533589281828
+356,s73,10615.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.270023374137356
+357,s73,5155.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.54772239645106
+358,s73,4404.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.390268497842571
+359,s73,6958.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.847647355711887
+360,s73,3515.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.164794804244766
+361,s74,2219.0,Bayes Optimal Teacher,20.0,Congruent,test,7.704811922932594
+362,s74,1650.0,Bayes Optimal Teacher,21.0,Congruent,test,7.408530566894626
+363,s74,2598.0,Bayes Optimal Teacher,22.0,Congruent,test,7.862497197230545
+364,s74,1519.0,Bayes Optimal Teacher,23.0,Congruent,test,7.325807502595773
+365,s74,9963.0,Bayes Optimal Teacher,24.0,Congruent,test,9.206633510044856
+366,s75,8482.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.045701550034536
+367,s75,8817.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.084436955087027
+368,s75,8441.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.04085606398372
+369,s75,7678.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.946114375560743
+370,s75,5334.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.58185670474196
+371,s76,9665.0,Reward Heuristic,20.0,Congruent,test,9.17626639164243
+372,s76,16228.0,Reward Heuristic,21.0,Congruent,test,9.694493424326337
+373,s76,3652.0,Reward Heuristic,22.0,Congruent,test,8.20303024171486
+374,s76,2866.0,Reward Heuristic,23.0,Congruent,test,7.960672608388117
+375,s76,4318.0,Reward Heuristic,24.0,Congruent,test,8.370547611074752
+376,s77,26859.0,Bayes Optimal Teacher,20.0,Incongruent,test,10.198356239302266
+377,s77,13432.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.505395198757377
+378,s77,6474.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.775549434486189
+379,s77,5903.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.683215975240689
+380,s77,21095.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.95679132455844
+381,s78,9790.0,Reward Heuristic,20.0,Congruent,test,9.189116735524555
+382,s78,14329.0,Reward Heuristic,21.0,Congruent,test,9.570040734716603
+383,s78,4834.0,Reward Heuristic,22.0,Congruent,test,8.483429561263428
+384,s78,9065.0,Reward Heuristic,23.0,Congruent,test,9.112176123188952
+385,s78,8054.0,Reward Heuristic,24.0,Congruent,test,8.9939241414114
+386,s79,5390.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.592300663903043
+387,s79,2340.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.757906208351747
+388,s79,4277.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.361007108226909
+389,s79,1658.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.4133673356952405
+390,s79,12086.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.399803036921504
+391,s80,4598.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.433376705323127
+392,s80,2261.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.72356247227797
+393,s80,2987.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.00202481821611
+394,s80,1536.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.336936913707618
+395,s80,2829.0,Bayes Optimal Teacher,24.0,Incongruent,test,7.947678571301568
+396,s81,6505.0,Bayes Optimal Teacher,20.0,Congruent,test,8.780326390946605
+397,s81,5159.0,Bayes Optimal Teacher,21.0,Congruent,test,8.54849804124465
+398,s81,10747.0,Bayes Optimal Teacher,22.0,Congruent,test,9.282381924841154
+399,s81,7472.0,Bayes Optimal Teacher,23.0,Congruent,test,8.918917979908679
+400,s81,13406.0,Bayes Optimal Teacher,24.0,Congruent,test,9.503457646917903
+401,s82,10311.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.240966565517944
+402,s82,4804.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.477204183199873
+403,s82,3433.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.141189793457691
+404,s82,4128.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.325548307161398
+405,s82,8949.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.099297073182859
+406,s83,12157.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.405660414555793
+407,s83,2994.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.004365564979574
+408,s83,2644.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.880048200971577
+409,s83,11196.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.323311850635344
+410,s83,6810.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.826147399143558
+411,s84,5705.0,Reward Heuristic,20.0,Incongruent,test,8.649098262296176
+412,s84,1982.0,Reward Heuristic,21.0,Incongruent,test,7.591861714889934
+413,s84,1891.0,Reward Heuristic,22.0,Incongruent,test,7.544861068658458
+414,s84,2702.0,Reward Heuristic,23.0,Incongruent,test,7.9017475185201445
+415,s84,3386.0,Reward Heuristic,24.0,Incongruent,test,8.12740456269308
+416,s85,3987.0,Bayes Optimal Teacher,20.0,Congruent,test,8.290794347381356
+417,s85,6086.0,Bayes Optimal Teacher,21.0,Congruent,test,8.713746330456916
+418,s85,6292.0,Bayes Optimal Teacher,22.0,Congruent,test,8.747034264178168
+419,s85,2601.0,Bayes Optimal Teacher,23.0,Congruent,test,7.8636512654486515
+420,s85,8536.0,Bayes Optimal Teacher,24.0,Congruent,test,9.05204779298159
+421,s86,9327.0,Bayes Optimal Teacher,20.0,Congruent,test,9.140668698726863
+422,s86,10787.0,Bayes Optimal Teacher,21.0,Congruent,test,9.28609698437543
+423,s86,8543.0,Bayes Optimal Teacher,22.0,Congruent,test,9.052867513151618
+424,s86,12240.0,Bayes Optimal Teacher,23.0,Congruent,test,9.412464556066316
+425,s86,11284.0,Bayes Optimal Teacher,24.0,Congruent,test,9.331141072121888
+426,s87,6828.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.828787083914332
+427,s87,7055.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.861491864286915
+428,s87,8394.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.035272443893536
+429,s87,3783.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.23827262463303
+430,s87,5551.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.621733370690162
+431,s88,4214.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.346167594364134
+432,s88,2465.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.80994708647679
+433,s88,2550.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.843848638152472
+434,s88,3722.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.222016437202196
+435,s88,2797.0,Bayes Optimal Teacher,24.0,Incongruent,test,7.936302693201959
+436,s89,4566.0,Reward Heuristic,18.0,Congruent,test,8.42639282708974
+437,s89,4643.0,Reward Heuristic,19.0,Congruent,test,8.443115988019922
+438,s89,9240.0,Reward Heuristic,20.0,Congruent,test,9.131297164635729
+439,s89,3005.0,Reward Heuristic,21.0,Congruent,test,8.008032846969307
+440,s89,4163.0,Reward Heuristic,22.0,Congruent,test,8.333991247194975
+441,s90,9850.0,Reward Heuristic,20.0,Incongruent,test,9.195226734166134
+442,s90,1894.0,Reward Heuristic,21.0,Incongruent,test,7.546446273746024
+443,s90,2239.0,Reward Heuristic,22.0,Incongruent,test,7.713784616598755
+444,s90,2294.0,Reward Heuristic,23.0,Incongruent,test,7.738052297689316
+445,s90,1227.0,Reward Heuristic,24.0,Incongruent,test,7.112327444710911
+446,s91,7150.0,Bayes Optimal Teacher,19.0,Congruent,test,8.874867635688053
+447,s91,11172.0,Bayes Optimal Teacher,20.0,Congruent,test,9.321165927065067
+448,s91,19963.0,Bayes Optimal Teacher,21.0,Congruent,test,9.901635839172654
+449,s91,17091.0,Bayes Optimal Teacher,22.0,Congruent,test,9.746307288148506
+450,s91,6654.0,Bayes Optimal Teacher,23.0,Congruent,test,8.802973456578423
+451,s92,1853.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.52456122628536
+452,s92,1538.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.338238150065589
+453,s92,1075.0,Bayes Optimal Teacher,22.0,Incongruent,test,6.980075940561763
+454,s92,13479.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.508888197738269
+455,s92,9711.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.181014542594355
+456,s93,4246.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.353732642263202
+457,s93,10103.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.220587688427733
+458,s93,8081.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.997270906233448
+459,s93,4869.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.4906438561827
+460,s93,11176.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.321523900936798
+461,s94,7222.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.884887201837403
+462,s94,7184.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.879611609982035
+463,s94,14533.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.58417720462617
+464,s94,6129.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.720786883485731
+465,s94,9470.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.155884186180124
+466,s95,10300.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.239899174217728
+467,s95,6360.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.757783656334167
+468,s95,8402.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.036225051729327
+469,s95,7786.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.960082528170402
+470,s95,9677.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.177507214880942
+471,s96,8848.0,Reward Heuristic,20.0,Congruent,test,9.087946723762116
+472,s96,4066.0,Reward Heuristic,21.0,Congruent,test,8.310414994188292
+473,s96,5703.0,Reward Heuristic,22.0,Congruent,test,8.648747631156539
+474,s96,6471.0,Reward Heuristic,23.0,Congruent,test,8.775085935057266
+475,s96,9714.0,Reward Heuristic,24.0,Congruent,test,9.18132342290569
+476,s97,21607.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.98077261524567
+477,s97,7342.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.90136656405678
+478,s97,15643.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.657778811561771
+479,s97,8827.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.085570485020233
+480,s97,13059.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.477232830220407
+481,s98,10496.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.25874951118387
+482,s98,2889.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.968665700466235
+483,s98,6599.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.794673401383422
+484,s98,9685.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.178333575841096
+485,s98,10986.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.304377013902565
+486,s99,10232.0,Reward Heuristic,20.0,Congruent,test,9.23327534325868
+487,s99,11681.0,Reward Heuristic,21.0,Congruent,test,9.365718869155696
+488,s99,7814.0,Reward Heuristic,22.0,Congruent,test,8.963672275615016
+489,s99,7116.0,Reward Heuristic,23.0,Congruent,test,8.870101048785726
+490,s99,13091.0,Reward Heuristic,24.0,Congruent,test,9.479680250180099
+491,s100,1691.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.43307534889858
+492,s100,1315.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.181591944611865
+493,s100,4407.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.390949464841986
+494,s100,1463.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.288244401020124
+495,s100,8391.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.03491498187007
+496,s101,7773.0,Bayes Optimal Teacher,20.0,Congruent,test,8.958411469230219
+497,s101,9325.0,Bayes Optimal Teacher,21.0,Congruent,test,9.140454244512016
+498,s101,4877.0,Bayes Optimal Teacher,22.0,Congruent,test,8.492285555710053
+499,s101,5715.0,Bayes Optimal Teacher,23.0,Congruent,test,8.65084957622891
+500,s101,5406.0,Bayes Optimal Teacher,24.0,Congruent,test,8.595264726836392
+501,s102,6749.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.817149624743406
+502,s102,4908.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.498621805830801
+503,s102,5633.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.636397438894713
+504,s102,5644.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.638348312972704
+505,s102,7648.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.942199454731238
+506,s103,6188.0,Bayes Optimal Teacher,20.0,Congruent,test,8.730367211692958
+507,s103,4647.0,Bayes Optimal Teacher,21.0,Congruent,test,8.443977129084978
+508,s103,14174.0,Bayes Optimal Teacher,22.0,Congruent,test,9.5591645793702
+509,s103,3359.0,Bayes Optimal Teacher,23.0,Congruent,test,8.119398589612294
+510,s103,15267.0,Bayes Optimal Teacher,24.0,Congruent,test,9.633448915256942
+511,s105,8693.0,Reward Heuristic,20.0,Congruent,test,9.070273383079064
+512,s105,5542.0,Reward Heuristic,21.0,Congruent,test,8.620110725422924
+513,s105,2970.0,Reward Heuristic,22.0,Congruent,test,7.996317231796746
+514,s105,4270.0,Reward Heuristic,23.0,Congruent,test,8.35936910622267
+515,s105,3174.0,Reward Heuristic,24.0,Congruent,test,8.062747901086354
+516,s106,3336.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.112527763478637
+517,s106,1736.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.459338895220296
+518,s106,1384.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.232733136177615
+519,s106,1591.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.372118028337787
+520,s106,12646.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.445096238618559
+521,s107,6266.0,Bayes Optimal Teacher,20.0,Congruent,test,8.742893471512136
+522,s107,4692.0,Bayes Optimal Teacher,21.0,Congruent,test,8.453614209773367
+523,s107,5094.0,Bayes Optimal Teacher,22.0,Congruent,test,8.535818655539403
+524,s107,4292.0,Bayes Optimal Teacher,23.0,Congruent,test,8.36450810375059
+525,s107,12096.0,Bayes Optimal Teacher,24.0,Congruent,test,9.400630098419315
+526,s108,8461.0,Reward Heuristic,20.0,Congruent,test,9.0432226489245
+527,s108,3661.0,Reward Heuristic,21.0,Congruent,test,8.205491613120236
+528,s108,5777.0,Reward Heuristic,22.0,Congruent,test,8.661639795781266
+529,s108,16419.0,Reward Heuristic,23.0,Congruent,test,9.706194479812028
+530,s108,3020.0,Reward Heuristic,24.0,Congruent,test,8.013012110368916
+531,s109,7922.0,Reward Heuristic,20.0,Incongruent,test,8.977398978181862
+532,s109,17442.0,Reward Heuristic,21.0,Incongruent,test,9.76663636978693
+533,s109,20919.0,Reward Heuristic,22.0,Incongruent,test,9.948413115889121
+534,s109,15230.0,Reward Heuristic,23.0,Incongruent,test,9.631022445889208
+535,s109,10190.0,Reward Heuristic,24.0,Incongruent,test,9.229162126216771
+536,s110,10728.0,Reward Heuristic,19.0,Congruent,test,9.280612424961515
+537,s110,4191.0,Reward Heuristic,20.0,Congruent,test,8.340694647925071
+538,s110,6282.0,Reward Heuristic,21.0,Congruent,test,8.745443680098592
+539,s110,6752.0,Reward Heuristic,22.0,Congruent,test,8.817594036275793
+540,s110,10441.0,Reward Heuristic,23.0,Congruent,test,9.25349564229011
+541,s111,2755.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.9211727215870145
+542,s111,1894.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.546446273746024
+543,s111,1524.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.329093736246592
+544,s111,1915.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.557472901614746
+545,s111,1427.0,Bayes Optimal Teacher,24.0,Incongruent,test,7.2633296174768365
+546,s112,3914.0,Reward Heuristic,20.0,Incongruent,test,8.272315147956022
+547,s112,4143.0,Reward Heuristic,21.0,Incongruent,test,8.329175442077402
+548,s112,1805.0,Reward Heuristic,22.0,Incongruent,test,7.498315870766981
+549,s112,6529.0,Reward Heuristic,23.0,Incongruent,test,8.784009071186633
+550,s113,15212.0,Bayes Optimal Teacher,19.0,Incongruent,test,9.62983986904815
+551,s113,15647.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.658034484302057
+552,s113,13267.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.493035027916918
+553,s113,18796.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.841399360222706
+554,s113,15749.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.664532150174582
+555,s114,7778.0,Reward Heuristic,20.0,Incongruent,test,8.959054514715692
+556,s114,8195.0,Reward Heuristic,21.0,Incongruent,test,9.01127949117793
+557,s114,4708.0,Reward Heuristic,22.0,Incongruent,test,8.457018468380168
+558,s114,2915.0,Reward Heuristic,23.0,Incongruent,test,7.977625098784593
+559,s114,3188.0,Reward Heuristic,24.0,Incongruent,test,8.067149039910106
+560,s115,1397.0,Reward Heuristic,20.0,Incongruent,test,7.242082359256962
+561,s115,2087.0,Reward Heuristic,21.0,Incongruent,test,7.643482907077201
+562,s115,1659.0,Reward Heuristic,22.0,Incongruent,test,7.413970290190444
+563,s115,3447.0,Reward Heuristic,23.0,Incongruent,test,8.145259566516865
+564,s115,2543.0,Reward Heuristic,24.0,Incongruent,test,7.841099765422119
+565,s116,21395.0,Bayes Optimal Teacher,20.0,Congruent,test,9.970912528850917
+566,s116,9616.0,Bayes Optimal Teacher,21.0,Congruent,test,9.17118365677499
+567,s116,3613.0,Bayes Optimal Teacher,22.0,Congruent,test,8.19229373114764
+568,s116,7750.0,Bayes Optimal Teacher,23.0,Congruent,test,8.955448122347393
+569,s116,4656.0,Bayes Optimal Teacher,24.0,Congruent,test,8.445911989411274
+570,s117,4630.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.440312147080279
+571,s117,5950.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.691146498539675
+572,s117,7655.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.943114308091785
+573,s117,11782.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.374328222081633
+574,s117,18051.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.800956363888462
+575,s118,8112.0,Bayes Optimal Teacher,20.0,Congruent,test,9.001099725830965
+576,s118,3152.0,Bayes Optimal Teacher,21.0,Congruent,test,8.05579245097777
+577,s118,2313.0,Bayes Optimal Teacher,22.0,Congruent,test,7.746300662231439
+578,s118,1766.0,Bayes Optimal Teacher,23.0,Congruent,test,7.476472381163905
+579,s118,2424.0,Bayes Optimal Teacher,24.0,Congruent,test,7.793174347189205
+580,s119,7879.0,Reward Heuristic,20.0,Congruent,test,8.971956271245688
+581,s119,6422.0,Reward Heuristic,21.0,Congruent,test,8.76748487464946
+582,s119,2480.0,Reward Heuristic,22.0,Congruent,test,7.8160138391590275
+583,s119,2358.0,Reward Heuristic,23.0,Congruent,test,7.765569081097317
+584,s119,10994.0,Reward Heuristic,24.0,Congruent,test,9.305104948420606
+585,s120,7545.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.928640371201949
+586,s120,13995.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.546455401949554
+587,s120,5044.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.52595469708481
+588,s120,10981.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.303921785597714
+589,s120,11957.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.38907215991958
+590,s121,9204.0,Reward Heuristic,20.0,Incongruent,test,9.127393451155257
+591,s121,6900.0,Reward Heuristic,21.0,Incongruent,test,8.83927669058535
+592,s121,10186.0,Reward Heuristic,22.0,Incongruent,test,9.22876950744455
+593,s121,6726.0,Reward Heuristic,23.0,Incongruent,test,8.813735892300215
+594,s121,6453.0,Reward Heuristic,24.0,Incongruent,test,8.77230041793584
+595,s122,9390.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.147400572202308
+596,s122,1905.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.552237287560802
+597,s122,1212.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.10002716662926
+598,s122,1459.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.285506548522785
+599,s122,13513.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.511407464038086
+600,s123,24466.0,Reward Heuristic,20.0,Congruent,test,10.105039677606861
+601,s123,13722.0,Reward Heuristic,21.0,Congruent,test,9.526755663250837
+602,s123,10764.0,Reward Heuristic,22.0,Congruent,test,9.283962511846797
+603,s123,24203.0,Reward Heuristic,23.0,Congruent,test,10.094231871403661
+604,s123,17042.0,Reward Heuristic,24.0,Congruent,test,9.743436164387901
+605,s124,4456.0,Bayes Optimal Teacher,20.0,Congruent,test,8.40200678160712
+606,s124,2869.0,Bayes Optimal Teacher,21.0,Congruent,test,7.9617188159813645
+607,s124,5095.0,Bayes Optimal Teacher,22.0,Congruent,test,8.536014945656826
+608,s124,3061.0,Bayes Optimal Teacher,23.0,Congruent,test,8.026496938945412
+609,s124,8093.0,Bayes Optimal Teacher,24.0,Congruent,test,8.998754769495703
+610,s125,16535.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.713234625415893
+611,s125,8614.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.061144065614055
+612,s125,6070.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.711113884053544
+613,s125,4687.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.452547997922705
+614,s125,5533.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.618485442898109
+615,s126,8057.0,Bayes Optimal Teacher,19.0,Congruent,test,8.994296557777195
+616,s126,11302.0,Bayes Optimal Teacher,20.0,Congruent,test,9.33273498018979
+617,s126,6741.0,Bayes Optimal Teacher,21.0,Congruent,test,8.815963560853438
+618,s126,2773.0,Bayes Optimal Teacher,22.0,Congruent,test,7.927685045615778
+619,s126,9975.0,Bayes Optimal Teacher,23.0,Congruent,test,9.207837241758064
+620,s127,8329.0,Reward Heuristic,20.0,Congruent,test,9.02749867993534
+621,s127,11813.0,Reward Heuristic,21.0,Congruent,test,9.37695589894852
+622,s127,9116.0,Reward Heuristic,22.0,Congruent,test,9.117786390365575
+623,s127,6490.0,Reward Heuristic,23.0,Congruent,test,8.778017809698136
+624,s127,13146.0,Reward Heuristic,24.0,Congruent,test,9.483872808823522
+625,s128,3396.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.130353547431238
+626,s128,2314.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.746732907753622
+627,s128,1592.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.3727463664043285
+628,s128,1904.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.55171221535131
+629,s128,14310.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.568713872550497
+630,s129,7898.0,Bayes Optimal Teacher,18.0,Incongruent,test,8.974364841846596
+631,s129,9305.0,Bayes Optimal Teacher,19.0,Incongruent,test,9.13830716907635
+632,s129,14658.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.592741540485795
+633,s129,12659.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.446123703636829
+634,s129,4941.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.50532301884575
+635,s130,9066.0,Bayes Optimal Teacher,20.0,Congruent,test,9.112286431500795
+636,s130,4420.0,Bayes Optimal Teacher,21.0,Congruent,test,8.393894975071744
+637,s130,10996.0,Bayes Optimal Teacher,22.0,Congruent,test,9.305286849285137
+638,s130,2690.0,Bayes Optimal Teacher,23.0,Congruent,test,7.897296472595885
+639,s130,15031.0,Bayes Optimal Teacher,24.0,Congruent,test,9.617870014133226
+640,s131,7112.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.86953877719374
+641,s131,7826.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.965206802770357
+642,s131,9047.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.110188490025742
+643,s131,8282.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.021839764105513
+644,s131,6342.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.754949455098293
+645,s132,3336.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.112527763478637
+646,s132,2607.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.865955413933502
+647,s132,8550.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.053686561930807
+648,s132,3516.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.165079258805068
+649,s132,7536.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.927446816256198
+650,s133,8733.0,Reward Heuristic,20.0,Congruent,test,9.074864232413733
+651,s133,9342.0,Reward Heuristic,21.0,Congruent,test,9.142275641062053
+652,s133,8234.0,Reward Heuristic,22.0,Congruent,test,9.01602720232985
+653,s133,11690.0,Reward Heuristic,23.0,Congruent,test,9.366489054466115
+654,s134,26775.0,Bayes Optimal Teacher,19.0,Congruent,test,10.19522389531595
+655,s134,4033.0,Bayes Optimal Teacher,20.0,Congruent,test,8.302265794873367
+656,s134,22068.0,Bayes Optimal Teacher,21.0,Congruent,test,10.001883874392322
+657,s134,6890.0,Bayes Optimal Teacher,22.0,Congruent,test,8.837826364007704
+658,s134,6337.0,Bayes Optimal Teacher,23.0,Congruent,test,8.754160749323518
+659,s135,3547.0,Reward Heuristic,20.0,Congruent,test,8.173857454773621
+660,s135,2308.0,Reward Heuristic,21.0,Congruent,test,7.744136627627991
+661,s135,1890.0,Reward Heuristic,22.0,Congruent,test,7.5443321080536885
+662,s135,1360.0,Reward Heuristic,23.0,Congruent,test,7.215239978730097
+663,s135,2854.0,Reward Heuristic,24.0,Congruent,test,7.956476798036782
+664,s136,6458.0,Bayes Optimal Teacher,18.0,Congruent,test,8.77307495131822
+665,s136,7460.0,Bayes Optimal Teacher,19.0,Congruent,test,8.917310693197807
+666,s136,11169.0,Bayes Optimal Teacher,20.0,Congruent,test,9.320897362540826
+667,s136,2913.0,Bayes Optimal Teacher,21.0,Congruent,test,7.976938756959434
+668,s135,2854.0,Reward Heuristic,24.0,Congruent,test,7.956476798036782
+669,s137,5819.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.66888370465667
+670,s137,2333.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.75491027202143
+671,s137,2897.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.9714309977693505
+672,s137,3668.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.207401833376355
+673,s137,15086.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.621522440413576
+674,s138,6377.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.760453046315272
+675,s138,5829.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.67060073804555
+676,s138,11694.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.366831168735615
+677,s138,15334.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.63782786411884
+678,s138,20005.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.903737521291335
+679,s139,2272.0,Reward Heuristic,20.0,Congruent,test,7.7284157798410416
+680,s139,2976.0,Reward Heuristic,21.0,Congruent,test,7.998335395952982
+681,s139,2728.0,Reward Heuristic,22.0,Congruent,test,7.911324018963353
+682,s139,3190.0,Reward Heuristic,23.0,Congruent,test,8.06777619577889
+683,s139,2441.0,Reward Heuristic,24.0,Congruent,test,7.80016307039296
+684,s140,1632.0,Reward Heuristic,20.0,Congruent,test,7.397561535524052
+685,s140,2609.0,Reward Heuristic,21.0,Congruent,test,7.866722285136729
+686,s140,1033.0,Reward Heuristic,22.0,Congruent,test,6.940222469119639
+687,s140,1451.0,Reward Heuristic,23.0,Congruent,test,7.280008252884188
+688,s140,1641.0,Reward Heuristic,24.0,Congruent,test,7.403061091090091
+689,s141,5952.0,Reward Heuristic,20.0,Incongruent,test,8.691482576512929
+690,s141,4367.0,Reward Heuristic,21.0,Incongruent,test,8.381831553485561
+691,s141,4764.0,Reward Heuristic,22.0,Incongruent,test,8.46884293047519
+692,s141,5452.0,Reward Heuristic,23.0,Incongruent,test,8.603737792816423
+693,s141,8386.0,Reward Heuristic,24.0,Incongruent,test,9.034318927730707
+694,s142,22916.0,Bayes Optimal Teacher,20.0,Congruent,test,10.039590635528468
+695,s142,16902.0,Bayes Optimal Teacher,21.0,Congruent,test,9.735187237104428
+696,s142,10537.0,Bayes Optimal Teacher,22.0,Congruent,test,9.262648151599528
+697,s142,6700.0,Bayes Optimal Teacher,23.0,Congruent,test,8.809862805379057
+698,s142,19208.0,Bayes Optimal Teacher,24.0,Congruent,test,9.86308213790109
+699,s143,4739.0,Bayes Optimal Teacher,20.0,Congruent,test,8.463581421967588
+700,s143,2311.0,Bayes Optimal Teacher,21.0,Congruent,test,7.745435610274381
+701,s143,2100.0,Bayes Optimal Teacher,22.0,Congruent,test,7.649692623711514
+702,s143,2480.0,Bayes Optimal Teacher,23.0,Congruent,test,7.8160138391590275
+703,s143,8063.0,Bayes Optimal Teacher,24.0,Congruent,test,8.995040974685022
+704,s144,3869.0,Bayes Optimal Teacher,20.0,Congruent,test,8.260751354700513
+705,s144,1489.0,Bayes Optimal Teacher,21.0,Congruent,test,7.305860032684009
+706,s144,2803.0,Bayes Optimal Teacher,22.0,Congruent,test,7.938445551164788
+707,s144,1585.0,Bayes Optimal Teacher,23.0,Congruent,test,7.368339686311381
+708,s144,7184.0,Bayes Optimal Teacher,24.0,Congruent,test,8.879611609982035
+709,s145,4724.0,Bayes Optimal Teacher,20.0,Congruent,test,8.460411177317253
+710,s145,4825.0,Bayes Optimal Teacher,21.0,Congruent,test,8.481566013773087
+711,s145,3849.0,Bayes Optimal Teacher,22.0,Congruent,test,8.255568653283746
+712,s145,3118.0,Bayes Optimal Teacher,23.0,Congruent,test,8.044947049617722
+713,s145,7606.0,Bayes Optimal Teacher,24.0,Congruent,test,8.936692688488204
+714,s146,2389.0,Reward Heuristic,20.0,Incongruent,test,7.77863014732581
+715,s146,3158.0,Reward Heuristic,21.0,Incongruent,test,8.057694194815587
+716,s146,2292.0,Reward Heuristic,22.0,Incongruent,test,7.73718007783463
+717,s146,3979.0,Reward Heuristic,23.0,Incongruent,test,8.288785810426928
+718,s146,2339.0,Reward Heuristic,24.0,Incongruent,test,7.757478766584179
+719,s147,6732.0,Reward Heuristic,19.0,Congruent,test,8.814627555310697
+720,s147,5008.0,Reward Heuristic,20.0,Congruent,test,8.518791912779934
+721,s147,5904.0,Reward Heuristic,21.0,Congruent,test,8.683385366280309
+722,s147,5926.0,Reward Heuristic,22.0,Congruent,test,8.68710472813351
+723,s146,2339.0,Reward Heuristic,24.0,Incongruent,test,7.757478766584179
+724,s148,11978.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.390826912824407
+725,s148,5856.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.675222055641148
+726,s148,4762.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.468423027046809
+727,s148,4488.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.409162447202533
+728,s148,5825.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.669914278433902
+729,s149,3955.0,Reward Heuristic,20.0,Incongruent,test,8.282735880201754
+730,s149,8085.0,Reward Heuristic,21.0,Incongruent,test,8.997765772011208
+731,s149,15091.0,Reward Heuristic,22.0,Incongruent,test,9.62185381861855
+732,s149,8671.0,Reward Heuristic,23.0,Incongruent,test,9.06773940337716
+733,s149,12224.0,Reward Heuristic,24.0,Incongruent,test,9.411156511406302
+734,s150,7327.0,Reward Heuristic,20.0,Congruent,test,8.899321434159964
+735,s150,11506.0,Reward Heuristic,21.0,Congruent,test,9.350623917423238
+736,s150,7980.0,Reward Heuristic,22.0,Congruent,test,8.984693690443855
+737,s150,9458.0,Reward Heuristic,23.0,Congruent,test,9.15461622320382
+738,s150,17498.0,Reward Heuristic,24.0,Congruent,test,9.76984186766621
+739,s151,2852.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.955775781534187
+740,s151,13505.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.510815266226716
+741,s151,3117.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.044626279767337
+742,s151,3465.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.150467911624004
+743,s151,10379.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.24753981296529
+744,s152,7228.0,Reward Heuristic,20.0,Incongruent,test,8.885717651712119
+745,s152,8669.0,Reward Heuristic,21.0,Incongruent,test,9.06750872286864
+746,s152,10545.0,Reward Heuristic,22.0,Incongruent,test,9.263407092912875
+747,s152,8441.0,Reward Heuristic,23.0,Incongruent,test,9.04085606398372
+748,s152,22634.0,Reward Heuristic,24.0,Incongruent,test,10.027208479525887
+749,s153,2319.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.7488913372555315
+750,s153,4115.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.32239411311117
+751,s153,2702.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.9017475185201445
+752,s153,2397.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.781973234434385
+753,s153,6417.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.766705997750515
+754,s154,3277.0,Bayes Optimal Teacher,20.0,Congruent,test,8.094683648698815
+755,s154,3336.0,Bayes Optimal Teacher,21.0,Congruent,test,8.112527763478637
+756,s154,3210.0,Bayes Optimal Teacher,22.0,Congruent,test,8.07402621612406
+757,s154,2023.0,Bayes Optimal Teacher,23.0,Congruent,test,7.612336837167746
+758,s154,22682.0,Bayes Optimal Teacher,24.0,Congruent,test,10.029326937375275
+759,s155,1522.0,Reward Heuristic,20.0,Incongruent,test,7.3277805384216315
+760,s155,5156.0,Reward Heuristic,21.0,Incongruent,test,8.547916364059079
+761,s155,2368.0,Reward Heuristic,22.0,Incongruent,test,7.769800996003896
+762,s155,1604.0,Reward Heuristic,23.0,Incongruent,test,7.38025578842646
+763,s155,2117.0,Reward Heuristic,24.0,Incongruent,test,7.6577552711348655
+764,s156,14556.0,Reward Heuristic,20.0,Congruent,test,9.585758558732051
+765,s156,7836.0,Reward Heuristic,21.0,Congruent,test,8.966483779064431
+766,s156,3861.0,Reward Heuristic,22.0,Congruent,test,8.258681496264236
+767,s156,6219.0,Reward Heuristic,23.0,Congruent,test,8.735364401103888
+768,s156,11429.0,Reward Heuristic,24.0,Congruent,test,9.343909263897597
+769,s157,9668.0,Reward Heuristic,20.0,Incongruent,test,9.176576741823373
+770,s157,4878.0,Reward Heuristic,21.0,Incongruent,test,8.492490578775866
+771,s157,4951.0,Reward Heuristic,22.0,Incongruent,test,8.507344855361422
+772,s157,5185.0,Reward Heuristic,23.0,Incongruent,test,8.553525120663627
+773,s157,5903.0,Reward Heuristic,24.0,Incongruent,test,8.683215975240689
+774,s158,6074.0,Bayes Optimal Teacher,20.0,Congruent,test,8.711772645605693
+775,s158,6959.0,Bayes Optimal Teacher,21.0,Congruent,test,8.84779106484485
+776,s158,4385.0,Bayes Optimal Teacher,22.0,Congruent,test,8.385944904806284
+777,s158,3123.0,Bayes Optimal Teacher,23.0,Congruent,test,8.046549357283078
+778,s158,8328.0,Bayes Optimal Teacher,24.0,Congruent,test,9.027378610294805
+779,s159,10417.0,Bayes Optimal Teacher,20.0,Congruent,test,9.251194365984448
+780,s159,4368.0,Bayes Optimal Teacher,21.0,Congruent,test,8.38206051742474
+781,s159,4623.0,Bayes Optimal Teacher,22.0,Congruent,test,8.438799123988225
+782,s159,5235.0,Bayes Optimal Teacher,23.0,Congruent,test,8.563122123304638
+783,s159,5378.0,Bayes Optimal Teacher,24.0,Congruent,test,8.59007183682881
+784,s160,8254.0,Reward Heuristic,19.0,Incongruent,test,9.018453210312527
+785,s160,8240.0,Reward Heuristic,20.0,Incongruent,test,9.016755622903517
+786,s160,10074.0,Reward Heuristic,21.0,Incongruent,test,9.217713126305595
+787,s160,7040.0,Reward Heuristic,22.0,Incongruent,test,8.859363449152088
+788,s159,5378.0,Bayes Optimal Teacher,24.0,Congruent,test,8.59007183682881
+789,s162,11033.0,Bayes Optimal Teacher,20.0,Congruent,test,9.308646060760307
+790,s162,1797.0,Bayes Optimal Teacher,21.0,Congruent,test,7.493873886783559
+791,s162,1368.0,Bayes Optimal Teacher,22.0,Congruent,test,7.221105098182496
+792,s162,2275.0,Bayes Optimal Teacher,23.0,Congruent,test,7.729735331385051
+793,s162,3247.0,Bayes Optimal Teacher,24.0,Congruent,test,8.085486772102845
+794,s163,10552.0,Bayes Optimal Teacher,18.0,Congruent,test,9.26407069439715
+795,s163,4812.0,Bayes Optimal Teacher,19.0,Congruent,test,8.47886807709457
+796,s163,6577.0,Bayes Optimal Teacher,20.0,Congruent,test,8.79133399330135
+797,s163,6566.0,Bayes Optimal Teacher,21.0,Congruent,test,8.789660098061537
+798,s163,23572.0,Bayes Optimal Teacher,22.0,Congruent,test,10.067814845957804
+799,s164,4781.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.472405008626103
+800,s164,7426.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.912742634737025
+801,s164,2941.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.9865049385539955
+802,s164,2415.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.789454566086673
+803,s164,16074.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.684958338772663
+804,s165,12436.0,Bayes Optimal Teacher,20.0,Congruent,test,9.428350771178645
+805,s165,4511.0,Bayes Optimal Teacher,21.0,Congruent,test,8.414274137408396
+806,s165,3195.0,Bayes Optimal Teacher,22.0,Congruent,test,8.069342366811636
+807,s165,2080.0,Bayes Optimal Teacher,23.0,Congruent,test,7.640123172695364
+808,s165,14885.0,Bayes Optimal Teacher,24.0,Congruent,test,9.608109273449877
+809,s166,3719.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.22121009392507
+810,s166,2027.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.614312146452
+811,s166,1182.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.074963197966044
+812,s166,1433.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.267525427828172
+813,s166,3909.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.271036865792954
+814,s167,20065.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.906732282701016
+815,s167,11099.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.31461029315198
+816,s167,10331.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.242904362849446
+817,s167,16985.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.740085880594684
+818,s167,9542.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.163458386076051
+819,s168,5530.0,Reward Heuristic,20.0,Congruent,test,8.61794309451638
+820,s168,7242.0,Reward Heuristic,21.0,Congruent,test,8.887652690325586
+821,s168,3348.0,Reward Heuristic,22.0,Congruent,test,8.116118431609365
+822,s168,4567.0,Reward Heuristic,23.0,Congruent,test,8.426611813185
+823,s168,2744.0,Reward Heuristic,24.0,Congruent,test,7.917171988845776
+824,s169,2016.0,Reward Heuristic,20.0,Incongruent,test,7.60887062919126
+825,s169,4762.0,Reward Heuristic,21.0,Incongruent,test,8.468423027046809
+826,s169,15289.0,Reward Heuristic,22.0,Incongruent,test,9.634888894560614
+827,s169,4278.0,Reward Heuristic,23.0,Incongruent,test,8.361240889642351
+828,s169,2068.0,Reward Heuristic,24.0,Incongruent,test,7.63433723562832
+829,s170,4420.0,Bayes Optimal Teacher,20.0,Congruent,test,8.393894975071744
+830,s170,3930.0,Bayes Optimal Teacher,21.0,Congruent,test,8.276394704863307
+831,s170,4840.0,Bayes Optimal Teacher,22.0,Congruent,test,8.484669999710677
+832,s170,3530.0,Bayes Optimal Teacher,23.0,Congruent,test,8.169053149927343
+833,s170,8712.0,Bayes Optimal Teacher,24.0,Congruent,test,9.072456664612796
+834,s171,2983.0,Reward Heuristic,19.0,Congruent,test,8.000684784514748
+835,s171,1632.0,Reward Heuristic,20.0,Congruent,test,7.397561535524052
+836,s171,1168.0,Reward Heuristic,21.0,Congruent,test,7.0630481633881725
+837,s171,2126.0,Reward Heuristic,22.0,Congruent,test,7.661997558901893
+838,s171,1672.0,Reward Heuristic,23.0,Congruent,test,7.421775793644647
+839,s172,9496.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.158625936289503
+840,s172,5173.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.551208070003515
+841,s172,14176.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.559305672844863
+842,s172,11836.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.3789010135201
+843,s172,9494.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.158415299111264
+844,s173,10374.0,Bayes Optimal Teacher,20.0,Congruent,test,9.247057954911346
+845,s173,23836.0,Bayes Optimal Teacher,21.0,Congruent,test,10.07895232186687
+846,s173,5221.0,Bayes Optimal Teacher,22.0,Congruent,test,8.560444233410552
+847,s173,7159.0,Bayes Optimal Teacher,23.0,Congruent,test,8.876125585396185
+848,s173,8877.0,Bayes Optimal Teacher,24.0,Congruent,test,9.09121894106832
+849,s174,2134.0,Reward Heuristic,20.0,Congruent,test,7.665753431861699
+850,s174,2430.0,Reward Heuristic,21.0,Congruent,test,7.795646536334594
+851,s174,1556.0,Reward Heuristic,22.0,Congruent,test,7.349873704738337
+852,s174,1529.0,Reward Heuristic,23.0,Congruent,test,7.332369205929062
+853,s174,1652.0,Reward Heuristic,24.0,Congruent,test,7.409741954080923
+854,s175,6007.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.700680734850161
+855,s175,3729.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.22389538017882
+856,s175,2429.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.795234929002173
+857,s175,2701.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.901377353792616
+858,s175,12802.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.45735668770195
+859,s176,16010.0,Reward Heuristic,19.0,Congruent,test,9.68096880599076
+860,s176,4112.0,Reward Heuristic,20.0,Congruent,test,8.321664807135
+861,s176,14691.0,Reward Heuristic,21.0,Congruent,test,9.594990340370426
+862,s176,6803.0,Reward Heuristic,22.0,Congruent,test,8.825118970345061
+863,s176,5350.0,Reward Heuristic,23.0,Congruent,test,8.584851839890053
+864,s177,26211.0,Bayes Optimal Teacher,20.0,Congruent,test,10.173934448966204
+865,s177,5103.0,Bayes Optimal Teacher,21.0,Congruent,test,8.537583881063972
+866,s177,4843.0,Bayes Optimal Teacher,22.0,Congruent,test,8.48528964240323
+867,s177,5585.0,Bayes Optimal Teacher,23.0,Congruent,test,8.6278397115033
+868,s177,7652.0,Bayes Optimal Teacher,24.0,Congruent,test,8.942722330560143
+869,s178,14929.0,Reward Heuristic,20.0,Congruent,test,9.61106090905359
+870,s178,4548.0,Reward Heuristic,21.0,Congruent,test,8.422442854870427
+871,s178,3486.0,Reward Heuristic,22.0,Congruent,test,8.156510226079966
+872,s178,13506.0,Reward Heuristic,23.0,Congruent,test,9.510889310134788
+873,s178,5383.0,Reward Heuristic,24.0,Congruent,test,8.591001118560957
+874,s179,2543.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.841099765422119
+875,s179,5953.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.69165057315339
+876,s179,1893.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.545918151209323
+877,s179,3663.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.206037762778815
+878,s179,6452.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.772145439245099
+879,s180,10055.0,Bayes Optimal Teacher,20.0,Congruent,test,9.215825302206753
+880,s180,6052.0,Bayes Optimal Teacher,21.0,Congruent,test,8.708144074908246
+881,s180,3688.0,Bayes Optimal Teacher,22.0,Congruent,test,8.212839584676484
+882,s180,4585.0,Bayes Optimal Teacher,23.0,Congruent,test,8.430545384690566
+883,s180,8149.0,Bayes Optimal Teacher,24.0,Congruent,test,9.00565049932022
+884,s181,8222.0,Bayes Optimal Teacher,20.0,Congruent,test,9.014568767457824
+885,s181,7131.0,Bayes Optimal Teacher,21.0,Congruent,test,8.872206756028303
+886,s181,12012.0,Bayes Optimal Teacher,22.0,Congruent,test,9.39366142910322
+887,s181,9520.0,Bayes Optimal Teacher,23.0,Congruent,test,9.161150127785412
+888,s181,18638.0,Bayes Optimal Teacher,24.0,Congruent,test,9.8329577863456
+889,s182,7815.0,Bayes Optimal Teacher,20.0,Congruent,test,8.963800242855577
+890,s182,2727.0,Bayes Optimal Teacher,21.0,Congruent,test,7.910957382845589
+891,s182,6153.0,Bayes Optimal Teacher,22.0,Congruent,test,8.724695046740491
+892,s182,2535.0,Bayes Optimal Teacher,23.0,Congruent,test,7.837948916025283
+893,s182,5855.0,Bayes Optimal Teacher,24.0,Congruent,test,8.675051276031818
+894,s183,6224.0,Bayes Optimal Teacher,20.0,Congruent,test,8.736168065858228
+895,s183,7211.0,Bayes Optimal Teacher,21.0,Congruent,test,8.88336291691676
+896,s183,5907.0,Bayes Optimal Teacher,22.0,Congruent,test,8.683893367307235
+897,s183,6179.0,Bayes Optimal Teacher,23.0,Congruent,test,8.72891172506098
+898,s183,11064.0,Bayes Optimal Teacher,24.0,Congruent,test,9.311451873344595
+899,s184,4248.0,Reward Heuristic,20.0,Congruent,test,8.354203562921775
+900,s184,7481.0,Reward Heuristic,21.0,Congruent,test,8.920121751872404
+901,s184,3406.0,Reward Heuristic,22.0,Congruent,test,8.133293861222633
+902,s184,5731.0,Reward Heuristic,23.0,Congruent,test,8.653645314551737
+903,s184,3500.0,Reward Heuristic,24.0,Congruent,test,8.160518247477505
+904,s185,6024.0,Bayes Optimal Teacher,20.0,Congruent,test,8.703506769479729
+905,s185,1973.0,Bayes Optimal Teacher,21.0,Congruent,test,7.587310506022615
+906,s185,2693.0,Bayes Optimal Teacher,22.0,Congruent,test,7.898411092811599
+907,s185,2270.0,Bayes Optimal Teacher,23.0,Congruent,test,7.727535110475448
+908,s185,6673.0,Bayes Optimal Teacher,24.0,Congruent,test,8.805824812903607
+909,s186,6397.0,Reward Heuristic,20.0,Incongruent,test,8.763584409450138
+910,s186,11184.0,Reward Heuristic,21.0,Incongruent,test,9.322239464473592
+911,s186,5264.0,Reward Heuristic,22.0,Incongruent,test,8.568646473005153
+912,s186,13423.0,Reward Heuristic,23.0,Incongruent,test,9.504724932487637
+913,s186,6744.0,Reward Heuristic,24.0,Incongruent,test,8.81640849968169
+914,s187,21032.0,Reward Heuristic,19.0,Congruent,test,9.953800366409718
+915,s187,11102.0,Reward Heuristic,20.0,Congruent,test,9.314880551250107
+916,s187,11310.0,Reward Heuristic,21.0,Congruent,test,9.333442569110167
+917,s187,9395.0,Reward Heuristic,22.0,Congruent,test,9.147932911847565
+918,s187,10773.0,Reward Heuristic,23.0,Congruent,test,9.284798282894192
+919,s188,3235.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.081784206935001
+920,s188,9344.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.142489705068009
+921,s188,3838.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.252706676567644
+922,s188,3694.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.214465160759186
+923,s188,10537.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.262648151599528
+924,s189,4011.0,Reward Heuristic,20.0,Incongruent,test,8.296795865770052
+925,s189,2906.0,Reward Heuristic,21.0,Incongruent,test,7.974532844130228
+926,s189,2698.0,Reward Heuristic,22.0,Incongruent,test,7.900266036767701
+927,s189,3455.0,Reward Heuristic,23.0,Incongruent,test,8.14757773620177
+928,s189,3079.0,Reward Heuristic,24.0,Incongruent,test,8.0323601479245
+929,s190,17279.0,Bayes Optimal Teacher,20.0,Congruent,test,9.757247170313121
+930,s190,10370.0,Bayes Optimal Teacher,21.0,Congruent,test,9.246672301223573
+931,s190,6864.0,Bayes Optimal Teacher,22.0,Congruent,test,8.834045641167798
+932,s190,2382.0,Bayes Optimal Teacher,23.0,Congruent,test,7.775695749915245
+933,s190,13992.0,Bayes Optimal Teacher,24.0,Congruent,test,9.546241016698438
+934,s191,2121.0,Reward Heuristic,20.0,Congruent,test,7.659642954564682
+935,s191,4165.0,Reward Heuristic,21.0,Congruent,test,8.334471554600944
+936,s191,20450.0,Reward Heuristic,22.0,Congruent,test,9.925738161470948
+937,s191,5173.0,Reward Heuristic,23.0,Congruent,test,8.551208070003515
+938,s191,4933.0,Reward Heuristic,24.0,Congruent,test,8.503702601233739
+939,s192,10423.0,Reward Heuristic,19.0,Congruent,test,9.251770181739323
+940,s192,6092.0,Reward Heuristic,20.0,Congruent,test,8.714731714015052
+941,s192,19317.0,Reward Heuristic,21.0,Congruent,test,9.868740816206293
+942,s192,9255.0,Reward Heuristic,22.0,Congruent,test,9.132919225007598
+943,s192,9990.0,Reward Heuristic,23.0,Congruent,test,9.2093398716426
+944,s193,3415.0,Bayes Optimal Teacher,20.0,Congruent,test,8.13593277200489
+945,s193,2918.0,Bayes Optimal Teacher,21.0,Congruent,test,7.978653729082731
+946,s193,3325.0,Bayes Optimal Teacher,22.0,Congruent,test,8.109224953089955
+947,s193,3215.0,Bayes Optimal Teacher,23.0,Congruent,test,8.07558263667172
+948,s193,1619.0,Bayes Optimal Teacher,24.0,Congruent,test,7.389563953677635
+949,s194,1681.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.427144133408616
+950,s194,3269.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.092239406724211
+951,s194,5071.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.531293315795018
+952,s194,3287.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.097730573664219
+953,s194,8368.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.032170186304704
+954,s195,10470.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.256269303864583
+955,s195,9778.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.187890243138591
+956,s195,7619.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.93840040647301
+957,s195,14867.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.60689927061335
+958,s195,13885.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.538564399740899
+959,s196,11951.0,Reward Heuristic,20.0,Congruent,test,9.388570235866881
+960,s196,11175.0,Reward Heuristic,21.0,Congruent,test,9.32143441948177
+961,s196,15022.0,Reward Heuristic,22.0,Congruent,test,9.617271072245957
+962,s196,10821.0,Reward Heuristic,23.0,Congruent,test,9.289243969571649
+963,s196,13911.0,Reward Heuristic,24.0,Congruent,test,9.54043517305957
+964,s197,1922.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.561121589530238
+965,s197,3116.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.044305406990638
+966,s197,8114.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.001346243766392
+967,s197,4866.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.490027523343468
+968,s197,6412.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.765926513729443
+969,s198,2091.0,Bayes Optimal Teacher,20.0,Congruent,test,7.645397699428633
+970,s198,1571.0,Bayes Optimal Teacher,21.0,Congruent,test,7.359467638255621
+971,s198,2377.0,Bayes Optimal Teacher,22.0,Congruent,test,7.773594467360194
+972,s198,1619.0,Bayes Optimal Teacher,23.0,Congruent,test,7.389563953677635
+973,s198,6261.0,Bayes Optimal Teacher,24.0,Congruent,test,8.74209519574531
+974,s199,10942.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.300363874623772
+975,s199,6659.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.803724602110622
+976,s199,18221.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.810330054049878
+977,s199,20205.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.913685377512573
+978,s199,13777.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.5307558140446
+979,s200,14654.0,Reward Heuristic,20.0,Congruent,test,9.592468614719909
+980,s200,12151.0,Reward Heuristic,21.0,Congruent,test,9.405166749908611
+981,s200,5002.0,Reward Heuristic,22.0,Congruent,test,8.517593111437565
+982,s200,2028.0,Reward Heuristic,23.0,Congruent,test,7.614805364711073
+983,s200,4991.0,Reward Heuristic,24.0,Congruent,test,8.515391569469609
+984,s203,3154.0,Bayes Optimal Teacher,20.0,Congruent,test,8.056426767522984
+985,s203,3271.0,Bayes Optimal Teacher,21.0,Congruent,test,8.092851027538384
+986,s203,2380.0,Bayes Optimal Teacher,22.0,Congruent,test,7.77485576666552
+987,s203,2886.0,Bayes Optimal Teacher,23.0,Congruent,test,7.9676267393338165
+988,s203,6700.0,Bayes Optimal Teacher,24.0,Congruent,test,8.809862805379057
+989,s204,14678.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.594105053105007
+990,s204,4060.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.308938252595778
+991,s204,3101.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.03947991910045
+992,s204,2114.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.656337166430183
+993,s204,9160.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.122601457668177
+994,s205,7352.0,Reward Heuristic,19.0,Incongruent,test,8.902727664035522
+995,s205,10016.0,Reward Heuristic,20.0,Incongruent,test,9.211939093339879
+996,s205,15768.0,Reward Heuristic,21.0,Incongruent,test,9.665737848832556
+997,s205,4173.0,Reward Heuristic,22.0,Incongruent,test,8.336390480591552
+998,s205,14683.0,Reward Heuristic,23.0,Incongruent,test,9.594445640962938
+999,s206,2854.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.956476798036782
+1000,s206,2603.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.864419904994565
+1001,s206,2556.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.846198815497425
+1002,s206,4072.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.311889558230359
+1003,s206,17623.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.77696014606437
+1004,s207,7268.0,Bayes Optimal Teacher,20.0,Congruent,test,8.891236429516061
+1005,s207,7473.0,Bayes Optimal Teacher,21.0,Congruent,test,8.91905180393029
+1006,s207,3831.0,Bayes Optimal Teacher,22.0,Congruent,test,8.25088114470065
+1007,s207,1915.0,Bayes Optimal Teacher,23.0,Congruent,test,7.557472901614746
+1008,s207,8222.0,Bayes Optimal Teacher,24.0,Congruent,test,9.014568767457824
+1009,s208,2937.0,Bayes Optimal Teacher,19.0,Incongruent,test,7.98514393119862
+1010,s208,8082.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.997394645638419
+1011,s208,4746.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.465057436995709
+1012,s208,3423.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.138272638530186
+1013,s208,14551.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.585414998760278
+1014,s209,6116.0,Bayes Optimal Teacher,20.0,Congruent,test,8.718663567048953
+1015,s209,4032.0,Bayes Optimal Teacher,21.0,Congruent,test,8.302017809751204
+1016,s209,7597.0,Bayes Optimal Teacher,22.0,Congruent,test,8.935508711503221
+1017,s209,4613.0,Bayes Optimal Teacher,23.0,Congruent,test,8.43663368355782
+1018,s209,5163.0,Bayes Optimal Teacher,24.0,Congruent,test,8.54927308487965
+1019,s210,9357.0,Bayes Optimal Teacher,19.0,Incongruent,test,9.143880005275912
+1020,s210,8524.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.050640993218508
+1021,s210,14335.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.57045937831747
+1022,s210,6982.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.851090687664982
+1023,s210,9003.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.105313134108476
+1024,s211,5827.0,Bayes Optimal Teacher,19.0,Incongruent,test,8.670257567143075
+1025,s211,5642.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.637993891561942
+1026,s211,5873.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.67812085552252
+1027,s211,4873.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.491465042843506
+1028,s211,8294.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.023287640806327
+1029,s212,3236.0,Bayes Optimal Teacher,20.0,Congruent,test,8.082093278178382
+1030,s212,2412.0,Bayes Optimal Teacher,21.0,Congruent,test,7.788211557847076
+1031,s212,1888.0,Bayes Optimal Teacher,22.0,Congruent,test,7.543273346705446
+1032,s212,6887.0,Bayes Optimal Teacher,23.0,Congruent,test,8.837390855544697
+1033,s212,10516.0,Bayes Optimal Teacher,24.0,Congruent,test,9.260653185849772
+1034,s213,10355.0,Bayes Optimal Teacher,19.0,Incongruent,test,9.245224773829685
+1035,s213,12405.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.425854896125902
+1036,s213,6693.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.808817483100642
+1037,s213,8112.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.001099725830965
+1038,s213,8874.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.090880931938855
+1039,s214,9329.0,Reward Heuristic,20.0,Incongruent,test,9.140883106960962
+1040,s214,2301.0,Reward Heuristic,21.0,Incongruent,test,7.741099090035366
+1041,s214,10145.0,Reward Heuristic,22.0,Incongruent,test,9.224736252259914
+1042,s214,17539.0,Reward Heuristic,23.0,Incongruent,test,9.772182251758139
+1043,s214,5152.0,Reward Heuristic,24.0,Incongruent,test,8.54714026778419
+1044,s215,9205.0,Bayes Optimal Teacher,19.0,Congruent,test,9.127502093667179
+1045,s215,7238.0,Bayes Optimal Teacher,20.0,Congruent,test,8.887100204123687
+1046,s215,10514.0,Bayes Optimal Teacher,21.0,Congruent,test,9.260462981379394
+1047,s215,14754.0,Bayes Optimal Teacher,22.0,Congruent,test,9.599269511444248
+1048,s216,8837.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.086702731518004
+1049,s216,3904.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.269756947532983
+1050,s216,7192.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.880724576151456
+1051,s216,10745.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.282195809076612
+1052,s216,4245.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.353497098745448
+1053,s217,7642.0,Bayes Optimal Teacher,20.0,Congruent,test,8.941414628006845
+1054,s217,11567.0,Bayes Optimal Teacher,21.0,Congruent,test,9.355911495295402
+1055,s217,10518.0,Bayes Optimal Teacher,22.0,Congruent,test,9.260843354149289
+1056,s217,7279.0,Bayes Optimal Teacher,23.0,Congruent,test,8.892748769118258
+1057,s217,9465.0,Bayes Optimal Teacher,24.0,Congruent,test,9.155356063643422
+1058,s218,3236.0,Reward Heuristic,20.0,Congruent,test,8.082093278178382
+1059,s218,7181.0,Reward Heuristic,21.0,Congruent,test,8.879193928110318
+1060,s218,3664.0,Reward Heuristic,22.0,Congruent,test,8.20631072579402
+1061,s218,10992.0,Reward Heuristic,23.0,Congruent,test,9.30492301446213
+1062,s218,6986.0,Reward Heuristic,24.0,Congruent,test,8.851663425366777
+1063,s219,5293.0,Reward Heuristic,20.0,Congruent,test,8.574140471857987
+1064,s219,3299.0,Reward Heuristic,21.0,Congruent,test,8.101374671228582
+1065,s219,2664.0,Reward Heuristic,22.0,Congruent,test,7.88758403166028
+1066,s219,2999.0,Reward Heuristic,23.0,Congruent,test,8.00603417874901
+1067,s219,12350.0,Reward Heuristic,24.0,Congruent,test,9.421411342056123
+1068,s220,5667.0,Reward Heuristic,20.0,Congruent,test,8.64241515616962
+1069,s220,4633.0,Reward Heuristic,21.0,Congruent,test,8.440959885416648
+1070,s220,2792.0,Reward Heuristic,22.0,Congruent,test,7.934513463882263
+1071,s220,4359.0,Reward Heuristic,23.0,Congruent,test,8.379997952238393
+1072,s220,18980.0,Reward Heuristic,24.0,Congruent,test,9.85114107216392
+1073,s221,8489.0,Reward Heuristic,20.0,Congruent,test,9.046526486737967
+1074,s221,5734.0,Reward Heuristic,21.0,Congruent,test,8.654168646443315
+1075,s221,7778.0,Reward Heuristic,22.0,Congruent,test,8.959054514715692
+1076,s221,2685.0,Reward Heuristic,23.0,Congruent,test,7.895436006942965
+1077,s221,3951.0,Reward Heuristic,24.0,Congruent,test,8.281723990411392
+1078,s222,5014.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.519989278718239
+1079,s222,4091.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.316544717929398
+1080,s222,3865.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.259716961021523
+1081,s222,4919.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.50086053679534
+1082,s222,14197.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.560785953663574
+1083,s223,7361.0,Reward Heuristic,20.0,Incongruent,test,8.903951072058707
+1084,s223,8248.0,Reward Heuristic,21.0,Incongruent,test,9.017726025696795
+1085,s223,7284.0,Reward Heuristic,22.0,Incongruent,test,8.8934354408475
+1086,s223,2247.0,Reward Heuristic,23.0,Incongruent,test,7.717351272185329
+1087,s223,6853.0,Reward Heuristic,24.0,Incongruent,test,8.832441791585824
+1088,s224,10130.0,Reward Heuristic,20.0,Congruent,test,9.22325659724273
+1089,s224,9924.0,Reward Heuristic,21.0,Congruent,test,9.202711344811691
+1090,s224,8265.0,Reward Heuristic,22.0,Congruent,test,9.019785010255125
+1091,s224,9745.0,Reward Heuristic,23.0,Congruent,test,9.184509611941662
+1092,s224,10239.0,Reward Heuristic,24.0,Congruent,test,9.233959237574817
+1093,s225,15605.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.65534665470488
+1094,s225,5565.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.624252263709645
+1095,s225,9210.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.128045129249353
+1096,s225,6873.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.835355971121606
+1097,s225,9451.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.153875834995056
+1098,s226,14531.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.584039577320695
+1099,s226,8226.0,Bayes Optimal Teacher,21.0,Incongruent,test,9.015055148790369
+1100,s226,4701.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.45553053102413
+1101,s226,5089.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.534836626588833
+1102,s226,17135.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.74887843430871
+1103,s227,3288.0,Reward Heuristic,20.0,Congruent,test,8.098034756176071
+1104,s227,2976.0,Reward Heuristic,21.0,Congruent,test,7.998335395952982
+1105,s227,1299.0,Reward Heuristic,22.0,Congruent,test,7.1693500166706
+1106,s227,1279.0,Reward Heuristic,23.0,Congruent,test,7.153833801578843
+1107,s227,1384.0,Reward Heuristic,24.0,Congruent,test,7.232733136177615
+1108,s228,6253.0,Bayes Optimal Teacher,20.0,Congruent,test,8.740816627567298
+1109,s228,7675.0,Bayes Optimal Teacher,21.0,Congruent,test,8.945723572455398
+1110,s228,4382.0,Bayes Optimal Teacher,22.0,Congruent,test,8.385260520155413
+1111,s228,3681.0,Bayes Optimal Teacher,23.0,Congruent,test,8.210939733379021
+1112,s228,6114.0,Bayes Optimal Teacher,24.0,Congruent,test,8.71833650245078
+1113,s229,3896.0,Bayes Optimal Teacher,20.0,Congruent,test,8.267705664762426
+1114,s229,4239.0,Bayes Optimal Teacher,21.0,Congruent,test,8.352082671352637
+1115,s229,7534.0,Bayes Optimal Teacher,22.0,Congruent,test,8.927181388251986
+1116,s229,5027.0,Bayes Optimal Teacher,23.0,Congruent,test,8.522578663692576
+1117,s229,7483.0,Bayes Optimal Teacher,24.0,Congruent,test,8.920389060080359
+1118,s230,3040.0,Reward Heuristic,20.0,Incongruent,test,8.019612794400267
+1119,s230,4818.0,Reward Heuristic,21.0,Incongruent,test,8.480114183174816
+1120,s230,2170.0,Reward Heuristic,22.0,Incongruent,test,7.682482446534506
+1121,s230,1570.0,Reward Heuristic,23.0,Incongruent,test,7.358830898342354
+1122,s230,2492.0,Reward Heuristic,24.0,Incongruent,test,7.820840879907344
+1123,s231,7723.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.951958168569265
+1124,s231,2148.0,Bayes Optimal Teacher,21.0,Incongruent,test,7.672292455628756
+1125,s231,2657.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.884952945759814
+1126,s231,2073.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.636752112435779
+1127,s231,12565.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.438670449977693
+1128,s232,4798.0,Reward Heuristic,19.0,Congruent,test,8.47595444339964
+1129,s232,6041.0,Reward Heuristic,20.0,Congruent,test,8.706324840138741
+1130,s232,13558.0,Reward Heuristic,21.0,Congruent,test,9.51473205799091
+1131,s232,14168.0,Reward Heuristic,22.0,Congruent,test,9.55874117946267
+1132,s232,9501.0,Reward Heuristic,23.0,Congruent,test,9.15915233520675
+1133,s233,12749.0,Bayes Optimal Teacher,19.0,Incongruent,test,9.453208116138121
+1134,s233,20633.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.93464701478523
+1135,s233,3030.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.016317898503415
+1136,s233,13150.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.48417703760591
+1137,s232,9501.0,Reward Heuristic,23.0,Congruent,test,9.15915233520675
+1138,s234,3031.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.016647877057803
+1139,s234,7051.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.860924729719041
+1140,s234,4914.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.499843553081124
+1141,s234,13946.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.542948007780955
+1142,s234,20958.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.950275714034888
+1143,s235,1419.0,Reward Heuristic,20.0,Incongruent,test,7.257707677160043
+1144,s235,3640.0,Reward Heuristic,21.0,Incongruent,test,8.199738960630786
+1145,s235,2676.0,Reward Heuristic,22.0,Incongruent,test,7.892078421248119
+1146,s235,1419.0,Reward Heuristic,23.0,Incongruent,test,7.257707677160043
+1147,s235,2663.0,Reward Heuristic,24.0,Incongruent,test,7.887208585813932
+1148,s236,2518.0,Bayes Optimal Teacher,20.0,Incongruent,test,7.831220214604293
+1149,s236,5569.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.624970783589669
+1150,s236,2779.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.929846429742503
+1151,s236,1810.0,Bayes Optimal Teacher,23.0,Incongruent,test,7.501082124259871
+1152,s236,9968.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.207135241027235
+1153,s237,9194.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.126306376366173
+1154,s237,4293.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.36474106822456
+1155,s237,3648.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.201934351194222
+1156,s237,3674.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.20903626577507
+1157,s237,9149.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.121399862679535
+1158,s238,8401.0,Bayes Optimal Teacher,20.0,Congruent,test,9.036106025364846
+1159,s238,4925.0,Bayes Optimal Teacher,21.0,Congruent,test,8.502079553606189
+1160,s238,6045.0,Bayes Optimal Teacher,22.0,Congruent,test,8.706986763048892
+1161,s238,5753.0,Bayes Optimal Teacher,23.0,Congruent,test,8.657476736863293
+1162,s238,6258.0,Bayes Optimal Teacher,24.0,Congruent,test,8.741615924228828
+1163,s239,9011.0,Reward Heuristic,20.0,Congruent,test,9.106201332235038
+1164,s239,6748.0,Reward Heuristic,21.0,Congruent,test,8.817001443665859
+1165,s239,5396.0,Reward Heuristic,22.0,Congruent,test,8.593413217327646
+1166,s239,4294.0,Reward Heuristic,23.0,Congruent,test,8.364973978438726
+1167,s239,4415.0,Reward Heuristic,24.0,Congruent,test,8.392763113038061
+1168,s240,5122.0,Bayes Optimal Teacher,19.0,Incongruent,test,8.541300266759471
+1169,s240,4586.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.43076346341785
+1170,s240,5927.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.687273461787838
+1171,s240,9131.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.11943049661634
+1172,s240,4461.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.403128235128264
+1173,s241,3242.0,Bayes Optimal Teacher,19.0,Incongruent,test,8.08394570229562
+1174,s241,11334.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.335562336729565
+1175,s241,8085.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.997765772011208
+1176,s241,10605.0,Bayes Optimal Teacher,22.0,Incongruent,test,9.269080866998783
+1177,s241,9089.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.11482017011877
+1178,s242,11223.0,Bayes Optimal Teacher,20.0,Congruent,test,9.325720523016257
+1179,s242,5697.0,Bayes Optimal Teacher,21.0,Congruent,test,8.647694999480395
+1180,s242,8083.0,Bayes Optimal Teacher,22.0,Congruent,test,8.997518369733845
+1181,s242,14378.0,Bayes Optimal Teacher,23.0,Congruent,test,9.573454539543818
+1182,s242,15057.0,Bayes Optimal Teacher,24.0,Congruent,test,9.619598278323043
+1183,s243,3045.0,Bayes Optimal Teacher,19.0,Incongruent,test,8.021256180143997
+1184,s243,3812.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.245909264774093
+1185,s243,4302.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.366835309827675
+1186,s243,3195.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.069342366811636
+1187,s243,15502.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.648724326841457
+1188,s244,5302.0,Reward Heuristic,19.0,Congruent,test,8.57583938684897
+1189,s244,6618.0,Reward Heuristic,20.0,Congruent,test,8.797548488481558
+1190,s244,10122.0,Reward Heuristic,21.0,Congruent,test,9.222466551774023
+1191,s244,12105.0,Reward Heuristic,22.0,Congruent,test,9.40137386937216
+1192,s245,7204.0,Reward Heuristic,20.0,Incongruent,test,8.882391706295847
+1193,s245,3864.0,Reward Heuristic,21.0,Incongruent,test,8.259458195332408
+1194,s245,3053.0,Reward Heuristic,22.0,Incongruent,test,8.023879992734878
+1195,s245,4020.0,Reward Heuristic,23.0,Incongruent,test,8.299037181613066
+1196,s245,2167.0,Reward Heuristic,24.0,Incongruent,test,7.681099001536359
+1197,s246,5616.0,Bayes Optimal Teacher,20.0,Incongruent,test,8.633374945705647
+1198,s246,3898.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.268218880067506
+1199,s246,2811.0,Bayes Optimal Teacher,22.0,Incongruent,test,7.941295570906532
+1200,s246,3218.0,Bayes Optimal Teacher,23.0,Incongruent,test,8.076515327552329
+1201,s246,6360.0,Bayes Optimal Teacher,24.0,Incongruent,test,8.757783656334167
+1202,s247,5489.0,Reward Heuristic,20.0,Congruent,test,8.610501368549889
+1203,s247,2452.0,Reward Heuristic,21.0,Congruent,test,7.804659297056102
+1204,s247,7018.0,Reward Heuristic,22.0,Congruent,test,8.85623355614316
+1205,s247,1503.0,Reward Heuristic,23.0,Congruent,test,7.315218389752975
+1206,s247,3030.0,Reward Heuristic,24.0,Congruent,test,8.016317898503415
+1207,s248,21431.0,Bayes Optimal Teacher,20.0,Congruent,test,9.972593750934676
+1208,s248,3241.0,Bayes Optimal Teacher,21.0,Congruent,test,8.083637203141548
+1209,s248,2402.0,Bayes Optimal Teacher,22.0,Congruent,test,7.784057002639929
+1210,s248,9576.0,Bayes Optimal Teacher,23.0,Congruent,test,9.16701524723781
+1211,s248,11464.0,Bayes Optimal Teacher,24.0,Congruent,test,9.346966969508008
+1212,s249,8589.0,Bayes Optimal Teacher,20.0,Incongruent,test,9.058237593766226
+1213,s249,4359.0,Bayes Optimal Teacher,21.0,Incongruent,test,8.379997952238393
+1214,s249,3688.0,Bayes Optimal Teacher,22.0,Incongruent,test,8.212839584676484
+1215,s249,13568.0,Bayes Optimal Teacher,23.0,Incongruent,test,9.515469358031684
+1216,s249,9607.0,Bayes Optimal Teacher,24.0,Incongruent,test,9.170247278409738
+1217,s250,12840.0,Reward Heuristic,20.0,Incongruent,test,9.460320577243952
+1218,s250,4920.0,Reward Heuristic,21.0,Incongruent,test,8.501063809486354
+1219,s250,8091.0,Reward Heuristic,22.0,Incongruent,test,8.99850761180784
+1220,s250,19882.0,Reward Heuristic,23.0,Incongruent,test,9.897570078772091
+1221,s250,14346.0,Reward Heuristic,24.0,Incongruent,test,9.571226436686379
+1222,s251,7626.0,Reward Heuristic,20.0,Incongruent,test,8.939318740417509
+1223,s251,3999.0,Reward Heuristic,21.0,Incongruent,test,8.293799608846818
+1224,s251,2173.0,Reward Heuristic,22.0,Incongruent,test,7.6838639802564295
+1225,s251,5470.0,Reward Heuristic,23.0,Incongruent,test,8.607033895416027
+1226,s251,2488.0,Reward Heuristic,24.0,Incongruent,test,7.81923445385907
+1227,s252,2923.0,Bayes Optimal Teacher,20.0,Congruent,test,7.980365765111246
+1228,s252,1717.0,Bayes Optimal Teacher,21.0,Congruent,test,7.448333860897476
+1229,s252,1694.0,Bayes Optimal Teacher,22.0,Congruent,test,7.434847875211999
+1230,s252,2301.0,Bayes Optimal Teacher,23.0,Congruent,test,7.741099090035366
+1231,s252,2732.0,Bayes Optimal Teacher,24.0,Congruent,test,7.912789220690681
+1232,s253,2112.0,Reward Heuristic,20.0,Incongruent,test,7.655390644826152
+1233,s253,6679.0,Reward Heuristic,21.0,Incongruent,test,8.806723554725636
+1234,s253,13421.0,Reward Heuristic,22.0,Incongruent,test,9.504575923397805
+1235,s253,6334.0,Reward Heuristic,23.0,Incongruent,test,8.753687227098585
+1236,s253,1542.0,Reward Heuristic,24.0,Incongruent,test,7.340835554123275
+1237,s254,15908.0,Bayes Optimal Teacher,20.0,Congruent,test,9.67457740632758
+1238,s254,9786.0,Bayes Optimal Teacher,21.0,Congruent,test,9.188708071849069
+1239,s254,12101.0,Bayes Optimal Teacher,22.0,Congruent,test,9.401043372798053
+1240,s254,9537.0,Bayes Optimal Teacher,23.0,Congruent,test,9.162934249578912
+1241,s254,13442.0,Bayes Optimal Teacher,24.0,Congruent,test,9.506139412529912
+1242,s255,8902.0,Reward Heuristic,20.0,Congruent,test,9.0940312495758
+1243,s255,3046.0,Reward Heuristic,21.0,Congruent,test,8.021584533455107
+1244,s255,6624.0,Reward Heuristic,22.0,Congruent,test,8.798454696065095
+1245,s255,6794.0,Reward Heuristic,23.0,Congruent,test,8.82379514872053
+1246,s255,7249.0,Reward Heuristic,24.0,Congruent,test,8.888618807300878
+1247,s256,20462.0,Bayes Optimal Teacher,20.0,Congruent,test,9.926324786438885
+1248,s256,14062.0,Bayes Optimal Teacher,21.0,Congruent,test,9.551231402759107
+1249,s256,4633.0,Bayes Optimal Teacher,22.0,Congruent,test,8.440959885416648
+1250,s256,3659.0,Bayes Optimal Teacher,23.0,Congruent,test,8.204945165019208
+1251,s256,4204.0,Bayes Optimal Teacher,24.0,Congruent,test,8.343791731996841
+1252,s257,5396.0,Reward Heuristic,20.0,Congruent,test,8.593413217327646
+1253,s257,2698.0,Reward Heuristic,21.0,Congruent,test,7.900266036767701
+1254,s257,5565.0,Reward Heuristic,22.0,Congruent,test,8.624252263709645
+1255,s257,2820.0,Reward Heuristic,23.0,Congruent,test,7.944492163932159
+1256,s257,7982.0,Reward Heuristic,24.0,Congruent,test,8.984944285608679

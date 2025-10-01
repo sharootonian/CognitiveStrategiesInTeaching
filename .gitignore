@@ -1,0 +1,11 @@
+# Large files that are split into smaller parts
+data/sim/exp1/exp1_posterior_sim_100.pkl
+data/sim/exp2/exp2_posterior_sim_100.pkl
+data/sim/exp3/exp3_posterior_sim_100.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary script
+split_posterior_sim.py
