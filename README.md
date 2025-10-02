@@ -115,7 +115,6 @@ jupyter notebook Exp1_modeling.ipynb  # ~30 min, ~10GB RAM
 jupyter notebook Exp2_modeling.ipynb  # ~43 min, ~20GB RAM
 jupyter notebook Exp3_modeling.ipynb  # ~45 min, ~20GB RAM
 ```
-**Warning:** Model simulations are computationally intensive and require 10-20GB RAM.
 
 ---
 
