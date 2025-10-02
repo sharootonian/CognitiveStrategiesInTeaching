@@ -60,11 +60,7 @@ CognitiveStrategiesInTeaching/
 ## Getting Started
 
 ### Prerequisites
-
 - Python 3.10 or higher (tested with 3.10.5)
-- R (optional, for mixed-effects models)
-- At least 20GB RAM for full model simulations
-- ~30GB disk space for data and model outputs
 
 ### Installation
 
