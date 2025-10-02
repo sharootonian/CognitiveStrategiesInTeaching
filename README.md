@@ -13,7 +13,7 @@ by Sevan Harootonian, Thomas L. Griffiths, Yael Niv, and Mark K. Ho
 
 This project investigates the cognitive strategies people use when teaching others. Through three behavioral experiments, we examine whether people rely on mentalizing or simpler heuristics when deciding what information to teach.
 
-**Try the task online:** [Graph Teaching Task Demo](https://sharootonian.github.io/CognitiveStrategiesInTeaching/GraphTeachingTask_demo/)
+**Try the task online:** [Graph Teaching Task Demo](https://sharootonian.github.io/CognitiveStrategiesInTeaching/)
 
 ---
 
