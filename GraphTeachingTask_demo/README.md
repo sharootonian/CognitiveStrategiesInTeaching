@@ -2,7 +2,7 @@
 
 Interactive demos for the three experiments from the paper "Mentalizing and heuristics as distinct cognitive strategies in human teaching".
 
-**Try the task online:** [Graph Teaching Task Demo](https://sharootonian.github.io/CognitiveStrategiesInTeaching/)
+**Try the task online:** [Graph Teaching Task Demo](https://sharootonian.github.io/CognitiveStrategiesInTeaching/GraphTeachingTask_demo/)
 
 ## About
 
